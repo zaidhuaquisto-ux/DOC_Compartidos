@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias Tech - Producto</title>
+
+    <style>
+
+    .galeria {
+    text-align: center;
+    }
+
+    .galeria img {
+        width: 30%;
+        max-width: 200px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eef2f7;
+        }
+
+        header {
+            background-color: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #636e72;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffeaa7;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .noticia {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #0984e3;
+        }
+
+        .imagen {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        .destacado {
+            background-color: #dfe6e9;
+            padding: 15px;
+            border-left: 5px solid #0984e3;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: #0984e3;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* BOTÓN IMPRIMIR */
+        .boton-imprimir {
+            display: block;
+            margin: 20px auto;
+            background-color: #00b894;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .boton-imprimir:hover {
+            background-color: #019875;
+        }
+
+        /* OCULTAR BOTÓN AL IMPRIMIR */
+        @media print {
+            .boton-imprimir {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Noticias Tecnológicas 📰</h1>
+    <p>Últimas novedades en productos</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Tecnología</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+</nav>
+
+
+
+
+
+
+
+<!-- BOTÓN -->
+<button onclick="window.print()" class="boton-imprimir">
+    Descargar / Imprimir para compartirlos con tus amigos 📄 <br>
+    <img src="https://blobcore.pulsoslp.com.mx/images/2024/03/19/captura-de-pantalla-2024-03-19-a-la-s-17.58.11-focus-0-0-1044-675.png" alt="Imagen del producto" class="imagen"display="block" >
+</button>
+    
+<img src="https://luismigueloficial.com/themes/lm/assets/images/LM_header.jpg" alt="Imagen del producto" class="imagen" display="block" >
+
+<div class="container">
+
+    <div class="noticia">
+        <h2>Nuevo lanzamiento del producto</h2>
+
+        <img src="https://luismigueloficial.com/themes/lm/assets/images/LM_header.jpg" alt="Imagen del producto" class="imagen">
+
+        <p>
+            Este es un nuevo producto que está llamando la atención en el mercado actual.
+        </p>
+
+        <p>
+            Su diseño innovador y características avanzadas lo convierten en una excelente opción.
+        </p>
+
+        <div class="destacado">
+            <strong>Dato importante:</strong> Aquí puedes resaltar información clave.
+        </div>
+
+        <img src="" alt="Otra vista del producto" class="imagen">
+
+        <p>
+            Este párrafo también es editable.
+        </p>
+    </div>
+
+    <div class="noticia">
+        <h2>Galería del producto</h2>
+
+        <div class="galeria">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8maC8m9M5dOLzVN3iUdxzPlyR36nqUj35mg&s" alt="Imagen 1">
+            <img src="https://cosasbucket.s3.amazonaws.com/wp-content/uploads/2023/04/20141722/Luis-miguel-en-Peru-2023-concierto-1152x675.jpg"  alt="Imagen 2"  display="block" />
+            <img src="https://www.gob.pe/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjAzOTM4LCJwdXIiOiJibG9iX2lkIn19--7ab4a275c38bbe88b0eeca7f05847c301590c04e/WhatsApp%20Image%202026-03-17%20at%205.45.02%20PM.jpeg" alt="Imagen 3">
+        </div>
+
+        <p>
+            Aquí puedes mostrar varias imágenes del producto en una sola fila.
+        </p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="noticia">
+        <h2>Comparativa de características</h2>
+
+        <img src="" alt="Comparación de productos" class="imagen">
+
+        <table>
+            <tr>
+                <th>Característica</th>
+                <th>Producto A</th>
+                <th>Producto B</th>
+            </tr>
+            <tr>
+                <td>Batería</td>
+                <td>10 horas</td>
+                <td>5 horas</td>
+            </tr>
+            <tr>
+                <td>Conectividad</td>
+                <td>Bluetooth</td>
+                <td>Cable</td>
+            </tr>
+            <tr>
+                <td>Precio</td>
+                <td>S/ 100</td>
+                <td>S/ 50</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="noticia">
+        <h2>Opiniones de usuarios</h2>
+
+        <img src="" alt="Usuarios opinando" class="imagen">
+
+        <p>“Excelente producto, muy recomendable.”</p>
+        <p>“Me gustó mucho su calidad y diseño.”</p>
+        <p>“Vale totalmente la pena por su precio.”</p>
+
+        <div class="destacado">
+            Puedes cambiar estas opiniones.
+        </div>
+    </div>
+
+    <div class="noticia">
+        <h2>Galería del producto</h2>
+
+        <img src="" class="imagen">
+        <img src="" class="imagen">
+        <img src="" class="imagen">
+    </div>
+
+    <div class="noticia">
+        <h2>Conclusión</h2>
+
+        <p>
+            Este espacio es completamente editable.
+        </p>
+
+        <img src="" class="imagen">
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Noticias Tech</p>
+</footer>
+
+</body>
+</html>

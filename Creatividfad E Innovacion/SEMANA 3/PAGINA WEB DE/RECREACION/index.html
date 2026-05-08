@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECREACION DEL CIGARRO</title>
+
+
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- 🔹 Barra de progreso animada-->
+    <!-- Barra de progreso -->
+    <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+    </div>
+
+
+
+
+
+    <!-- Contenido HTML -->
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <!-- El menú lateral que se desliza -->
+    <div class="side-menu" id="side-menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">×</a>
+        <a href="#Titulo">Inicio</a>
+        <a href="#Características">Acerca de</a>
+        <a href="#Comentarios">Comentarios</a>
+        <a href="#Contacto">Contáctanos</a>
+    </div>
+
+    <div class="content">
+        
+        <p class="moverDerecha">Haz clic en el botón ☰ para abrir el menú lateral.</p>
+    </div>    
+
+    <header>
+        <h1>𓂀 𝔹𝔼𝔹𝕆 𓂀</h1>
+        <h1 id="Titulo">Cigarro de Proteína 🚬</h1> <!-- Agregue el id-->
+        <p>De última novedad en productos 🛒</p>
+    </header>
+
+    <nav>
+        <a href="#Caracteristicas"> Producto</a>
+        <a href="#Dudas"> Preguntas</a>
+        <a href="#Contacto">Comprar ahora </a>
+    </nav>
+
+
+
+    <div class="container">
+        <h1>¡Bienvenidos!</h1>
+
+        <!-- Descripción del producto -->
+        <div class="description">
+            <p id="Inicio"   >Bienvenido a <strong>Cigarros de Proteína</strong>, la alternativa innovadora y 
+                saludable para los amantes del fitness que disfrutan de la experiencia del cigarro con un enfoque más saludable. 
+                Diseñado especialmente para quienes buscan una opción más segura, nuestros cigarros están elaborados con proteína, 
+                vitaminas y antioxidantes, ofreciendo un beneficio nutricional mientras disfrutas de un momento único. 
+                Aunque contienen una pequeña cantidad de tabaco, están pensados para aquellos que desean disfrutar de este 
+                ritual sin los efectos dañinos del tabaco tradicional. Descubre cómo Cigarros de Proteína puede acompañar 
+                tu estilo de vida activo de manera saludable."</p>
+        </div>
+
+
+        <!-- Imagen del producto, esta parte lo editare -->
+
+
+        <div class="image-container">
+            <div class="image-item">
+                <img src="cigarro.jpeg" alt="SuperCargador">
+                <div class="destacado"  > 
+                    <strong>Nota:</strong> "Bebo está revolucionando el mercado con una propuesta única: 
+                    un cigarro nutritivo que fusiona el placer de fumar con los beneficios de la proteína y nutrientes esenciales.
+                    Una marca que redefine el concepto de bienestar y salud para quienes buscan alternativas más saludables sin sacrificar el estilo."
+                </div>
+
+
+
+
+
+            </div>
+            <div class="image-item">
+                <img src="2cigarro.jpeg" alt="SuperCargador" />
+                <div class="destacado"  > 
+                    <strong>Transforma tu experiencia</strong> <br> "Redefine lo que significa disfrutar de un cigarro. 
+                    Con Cigarros de Proteína, no solo disfrutas del ritual de fumar, sino que también incorporas nutrientes esenciales 
+                    que complementan tu estilo de vida activo. Una alternativa más saludable, diseñada para los que buscan un 
+                    equilibrio entre placer y bienestar."
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Características del producto -->
+        <div id="Características" class="features">
+            <h2 id="Caracteristicas" >Características del Producto:</h2>
+            <ul>
+                <li> <strong>Proteína de alta calidad:</strong> Cada cigarro contiene proteínas esenciales que apoyan la regeneración muscular.</li>
+                <li><strong>Con un toque de tabaco:</strong> Aunque contiene una pequeña cantidad de tabaco, no tiene los efectos dañinos del tabaco tradicional, ofreciendo una alternativa menos perjudicial</li>
+                <li><strong>Vitaminas y antioxidantes:</strong> Refuerza el sistema inmunológico y favorece la salud celular.</li>
+                <li><strong>Diseñado para el fitness:</strong> Ideal para quienes buscan una alternativa saludable mientras mantienen un estilo de vida activo..</li>
+                <li><strong>Aroma y sabor similares:</strong> Ofrece una experiencia parecida a la de un cigarro convencional, pero con beneficios para la salud.</li>
+                <li> <strong>Fácil de consumir:</strong> Disfrútalo en cualquier momento del día, sin afectar tu bienestar.</li>
+            </ul>
+        </div>
+
+        <!-- Imagen de características -->
+        <div class="image-container">
+            <img src="Fumando.jpg" alt="Características del producto">
+            <p>"𝐃𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐝𝐞 𝐜𝐚𝐝𝐚 𝐢𝐧𝐡𝐚𝐥𝐚𝐜𝐢ó𝐧 𝐲 𝐝𝐞 𝐜𝐚𝐝𝐚 𝐞𝐱𝐡𝐚𝐥𝐚𝐜𝐢ó𝐧, 𝐬𝐚𝐛𝐢𝐞𝐧𝐝𝐨 𝐪𝐮𝐞 𝐥𝐨 𝐪𝐮𝐞 𝐞𝐬𝐭á𝐬 𝐞𝐱𝐩𝐮𝐥𝐬𝐚𝐧𝐝𝐨 𝐞𝐬 𝐛𝐞𝐧𝐞𝐟𝐢𝐜𝐢𝐨𝐬𝐨 𝐩𝐚𝐫𝐚 𝐭𝐮 𝐜𝐮𝐞𝐫𝐩𝐨, 𝐧𝐨 𝐝𝐚ñ𝐢𝐧𝐨."</p>
+        </div>
+
+        <!-- Comentarios de clientes -->
+        <div id="Comentarios" class="reviews">
+            <h2>Comentarios de Clientes:</h2>
+            <div class="reviews-container">
+                <div class="review">
+                    <p class="author">Juan Quispe</p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                    <p>"¡Increíble! Siempre me preocupó el impacto de fumar, pero con Cigarros de Proteína puedo disfrutar del ritual sin los efectos negativos. Me siento más saludable y mi rendimiento en el gimnasio ha mejorado."</p>
+                </div>
+                <div class="review">
+                    <p class="author">Ana Martínez</p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                    <p>"Nunca imaginé que un cigarro podría ser saludable. Me encanta la mezcla de proteína y antioxidantes. Es como si estuviera cuidando mi cuerpo mientras disfruto de algo que siempre me gustó. ¡Definitivamente lo recomendaré!"</p>
+                </div>
+                <div class="review">
+                    <p class="author">Carlos Flores</p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                    <p>"Como fumador habitual, me preocupaba dar el paso a algo más saludable, pero Cigarros de Proteína me sorprendió. No solo me satisface, sino que también siento que estoy mejorando mi salud. ¡Un cambio genial!"</p>
+                </div>
+                <div class="review">
+                    <p class="author">Javier Lopez</p>
+                    <p> ⭐</p>
+                    <p>"Lo probé esperando algo parecido a un cigarro normal, pero al no tener nicotina, no me dio la misma sensación. Aunque entiendo que es más saludable, si buscas la misma experiencia que un cigarro tradicional, este producto no es para ti."</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Imagen de testimonios EDITADO, ELIMINAR SI NO FUNCIONA-->
+
+        <div class="image-container">
+            <h2>Testimonios con fotos </h2>
+                <div class="destacado"  > 
+                    <strong>Nota:</strong> "Por lo general aquí se encuentran los comentarios en anónimo por razones desconocidas"
+                </div>
+
+        <div class="image-container">   <!-- Editado por mi-->
+            <div class="image-item"> 
+                <img width="500%" src="Planta.jpeg" alt="SuperCargador">  
+            </div>
+        </div>    
+             
+        <div class="review-two">
+            <p style="font-weight:bold ; color: #388e3c; margin-bottom: 10px;">Anónimo</p>
+            <p> ⭐⭐⭐⭐⭐</p>
+            <p>"Es tan natural que hasta mi planta lo disfruta xd cigarros de Proteína, el toque saludable para todos!!!"</p> 
+        </div>
+              
+        <hr class="separador"> <!--LINEA QUE SEPARA LAS SECCIONES-->
+          
+        <div class="image-container">  
+            <div class="image-item"> 
+                <img width="500%" src="Cita.jpeg" alt="SuperCargador">  
+            </div>
+        </div>    
+             
+        <div class="review-two">
+            <p style="font-weight:bold ; color: #388e3c; margin-bottom: 10px;">Anónimo</p>
+            <p> ⭐⭐⭐</p>
+            <p>"Bueno gente, tengo una cita para este sabado con la chica que me gusta, no me decepciones cigarrito!! necesito estar en mi Prime 💪"</p> 
+        </div>
+              
+
+
+
+        <!-- Sección de subida de archivo -->
+        <div class="upload-section">
+            <label for="product-file" class="upload-btn">¡Compártenos tu foto!</label>
+            <input type="file" id="product-file" class="file-input" />
+        </div>  
+
+
+
+
+        <br>
+        <!-- Agregado BOTON QUE MUESTRA OCULTA CONTENIDO-->
+        <button class="toggle-btn" onclick="toggleInfo()">Mostrar info</button>
+        <div id="info" class="info-box">
+
+
+        <div class="review-two">
+            <p style="font-weight:bold ; color: #388e3c; margin-bottom: 10px;">Anónimo</p>
+            <p> ⭐⭐⭐</p>
+            <p>"Bueno gente, tengo una cita para este sabado con la chica que me gusta, no me decepciones cigarrito!! necesito estar en mi Prime 💪"</p> 
+        </div>
+
+            
+            <p>Este es un texto oculto que aparece con una animación elegante.</p>
+        </div>
+
+
+
+
+
+        <!-- Preguntas frecuentes -->
+        <div class="faq">
+            <h2 id="Dudas">Preguntas Frecuentes:</h2>
+            <div class="question">
+                <p class="question-title">¿Es Cigarro de Proteína completamente libre de tabaco?</p>
+                <p class="answer">No. Cigarros de Proteína contienen una pequeña cantidad de tabaco, pero no tiene los efectos dañinos del tabaco tradicional. Está diseñado con una mezcla de nutrientes saludables, incluyendo proteínas y antioxidantes, para ofrecer una experiencia más saludable.</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Puedo sustituir un cigarro tradicional por un Cigarro de Proteína?</p>
+                <p class="answer">Aunque ofrece una experiencia similar, Cigarros de Proteína no contiene nicotina. Es una alternativa saludable para aquellos que buscan disfrutar del ritual sin los efectos nocivos del tabaco, pero no será un sustituto exacto de un cigarro convencional.</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Este cigarro tiene los mismos efectos que un cigarro convencional?</p>
+                <p class="answer">No. Cigarros de Proteína están diseñados para brindar beneficios nutricionales sin los efectos dañinos del tabaco. Está pensado para quienes buscan un producto más saludable, pero no será exactamente igual a fumar un cigarro tradicional.</p>
+            </div>
+
+            <div class="question">
+                <p class="question-title">¿Cuántos Cigarros de Proteína puedo consumir al día?</p>
+                <p class="answer">Recomendamos moderar su consumo, ya que aunque es saludable, no es un producto diseñado para el consumo excesivo. Como con cualquier producto, la clave es el equilibrio.</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Cuáles son los beneficios de consumir Cigarros de Proteína?</p>
+                <p class="answer">Ofrecen una dosis de proteínas, vitaminas y antioxidantes, lo que ayuda a mejorar la salud celular, apoyar la regeneración muscular y fortalecer el sistema inmunológico</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Es Cigarros de Proteína adecuado para personas que practican deporte?</p>
+                <p class="answer">¡Sí! Es ideal para quienes buscan una alternativa saludable que complemente su estilo de vida activo. Proporciona nutrientes beneficiosos para la recuperación muscular después del entrenamiento y puede ser parte de una dieta equilibrada.</p>
+            </div>
+        </div>
+
+
+
+        <!-- Formulario de contacto -->
+        <div class="contact-form">
+            <h2 id="Contacto"  >Contacto:</h2>
+            <p>¿Tienes preguntas o deseas más información? ¡Contáctanos!</p>
+            <form action="#">
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea id="message" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+
+         <!-- PARA CONVERTIRLO EN PDF -->
+        <button onclick="window.print()" class="boton-imprimir">
+        Descargar / Imprimir para compartirlos con tus amigos 📄 <br>
+        
+        </button>
+
+
+
+
+
+
+        <!-- Sección de fotos y enlaces -->
+        <div id="Contacto"  class="team-section">
+            <h2 style="text-align: center; color: #388e3c; font-size: 28px;">Conoce al equipo</h2>
+            <div class="team-images" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <div class="team-member">
+                    <img src="Zaid.jpg" alt="Miembros del equipo 1" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Zaid Joseph Huaquisto Zapana</p>
+                    <a target="_blank" href="https://www.tiktok.com/@zaicou.u" style="display: block; text-align: center; color: #388e3c;">𝗧𝗶𝗸 𝗧𝗼𝗸 ♪</a>
+                 
+                    <a href="https://www.instagram.com/zaico_kpop02?igsh=MWtuanp3ZTQzN2pv" target="_blank">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="https://wa.me/973116543" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+                <div class="team-member">
+                    <img src="Flor.jpeg" alt="Miembros del equipo 2" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Flor Milagros Merma Kanna</p>
+                    <a target="_blank" href="https://www.facebook.com/flor.mermakana" style="display: block; text-align: center; color: #388e3c;">ⓕ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤</a>
+                    <a href="mailto:fmermakana@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://wa.me/902770862" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+                <div class="team-member">
+                    <img src="Ariana.jpeg" alt="Miembros del equipo 3" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Ariana Danushka Tejada Bernal</p>
+                    <a target="_blank" href="https://www.instagram.com/ari_danu_?igsh=YWNrOG9vdGtieDht&utm_source=qr" style="display: block; text-align: center; color: #388e3c;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="mailto:aridanu622328@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://wa.me/976878824" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+                <div class="team-member">
+                    <img src="Santiago.jpeg" alt="Miembros del equipo 4" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Santiago Gabriel Salazar Durand</p>
+                    <a target="_blank" href="https://www.instagram.com/bbssavage?igsh=MXdybjNrdHlheHhzcw%3D%3D&utm_source=qr" style="display: block; text-align: center; color: #388e3c;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="mailto:aridanu622328@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://onlyfans.com/" target="_blank">𝐏𝐚𝐫𝐚 𝐦𝐚𝐬 𝐜𝐨𝐧𝐭𝐞𝐧𝐢𝐝𝐨 🔥</a>
+                </div>
+                <div class="team-member">
+                    <img src="Avi.jpeg" alt="Miembros del equipo 4" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Avi Fabiana Valdivia Huacho</p>
+                    <a target="_blank" href="https://www.instagram.com/vee_vee305?igsh=MWFleTVwZWFpZ2Q3Zg%3D%3D&utm_source=qr" style="display: block; text-align: center; color: #388e3c;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="mailto:avivalh2645@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://wa.me/970752499" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="javas.js" > </script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+       
+/* PARA QUE HAGA SCROLL BONITO */
+html {
+    scroll-behavior: smooth;
+}
+
+.moverDerecha {
+
+  margin-left: 60px;       /* espacio desde la izquierda */
+  margin-top: 20px;        /* separación desde arriba */
+  font-family: "Segoe UI", Arial, sans-serif; /* tipografía moderna */
+  font-size: 16px;         /* tamaño cómodo */
+  color: 
+}
+
+/* BARRA DE PROGRESO */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+  z-index: 999;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background: #4caf50;
+  transition: width 0.25s ease;
+}
+
+.content {
+  padding-top: 12px; /* espacio para que el texto no se pegue a la barra */
+}
+
+
+/* BOTON QUE MUESTRA Y OCULTA CONTENIDPO */
+.toggle-btn {
+  background: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  background: #0b79d0;
+}
+
+.info-box {
+  max-height: 0;              /* empieza cerrado */
+  overflow: hidden;           /* oculta el contenido */
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  background: #f9f9f9;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 0 15px;            /* padding horizontal */
+}
+
+.info-box.open {
+  max-height: 200px;          /* altura máxima al abrir */
+  padding: 15px;              /* padding completo */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+       
+       .boton-imprimir {
+            display: block;
+            margin: 20px auto;
+            background-color: #00b894;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+        /* PARA LAS 3 RAYAS */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para el botón que abre el menú */
+        .menu-btn {
+            font-size: 30px;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Estilos para el menú lateral */
+        .side-menu {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .side-menu a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .side-menu a:hover {
+            background-color: #575757;
+        }
+
+        /* El botón para cerrar el menú */
+        .side-menu .close-btn {
+            font-size: 36px;
+            color: white;
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .content {
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+        /* Esto ya lo estoy creando yo */
+        footer {
+            background-color: #2d3436; 
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .destacado {
+            background-color: #dfe6e9;
+            padding: 15px;
+            border-left: 5px solid #0984e3;
+            margin: 20px 0;
+        }
+        
+
+
+        nav {
+            background-color: #636e72;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffeaa7;
+        }
+
+
+
+
+
+
+
+        /* Estilos básicos para la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Título de la página */
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* Descripción del producto */
+        .description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            margin-top: 20px;
+            background-color: #e0f7fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Sección de características */
+        .features {
+            margin-top: 30px;
+            background-color: #ffe082;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .features h2 {
+            color: #333;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            background-color: #fff3e0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        /* Estilos para las imágenes */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-container p {
+            font-size: 16px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+
+
+
+
+        /* Sección de comentarios */
+        .reviews {
+            margin-top: 40px;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .reviews h2 {
+            color: #333;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .reviews-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Espacio entre los cuadros de comentarios */
+            flex-wrap: wrap; /* Permite que los comentarios se ajusten a nuevas líneas si no caben */
+        }
+
+        .review {
+            background-color: #ffffff; /* Fondo blanco para los cuadros */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%; /* Controla el ancho de cada cuadro */
+            text-align: center;
+        }
+
+        /* Testimonio para centrar todo el texto (ZAID)*/
+        .review-two {
+            background-color: #c4e6f6; /* Fondo blanco para los cuadros */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 70%; /* Controla el ancho de cada cuadro */
+            text-align: center;
+
+            margin: 0 auto;
+            display: block;
+
+        }
+
+        .review p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .review .author {
+            font-weight: bold;
+            color: #388e3c; /* Un color verde para el nombre */
+            margin-bottom: 10px;
+        }
+
+        .review:nth-child(odd) {
+            background-color: #e1f5fe; /* Color de fondo diferente para los comentarios impares */
+        }
+
+        .review:nth-child(even) {
+            background-color: #fff3e0; /* Color de fondo diferente para los comentarios pares */
+        }
+
+        /* Para separar, LINEA */
+        .separador {
+            border: 0;
+            border-top: 3px solid #c4e6f6; /* Línea de color azul claro */
+            margin: 30px 0; /* Espacio arriba y abajo de la línea */
+        }
+       
+
+
+
+        /* Sección de preguntas frecuentes */
+        .faq {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f3f4f6; /* Fondo suave para toda la sección */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+        }
+
+        .faq h2 {
+            color: #388e3c;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .question {
+            background-color: #ffffff; /* Fondo blanco para cada pregunta */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra suave en cada pregunta */
+            transition: transform 0.3s ease-in-out; /* Transición al hacer hover */
+        }
+
+        .question:hover {
+            transform: translateY(-5px); /* Efecto de levantamiento al pasar el mouse */
+        }
+
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #388e3c; /* Color verde para la pregunta */
+            margin-bottom: 10px;
+        }
+
+        .answer {
+            font-size: 16px;
+            color: #555; /* Color gris para la respuesta */
+            line-height: 1.5;
+        }
+
+        /* Icono al lado de la pregunta */
+        .question-title::before {
+            content: "➤ "; /* Agregar un ícono de flecha antes de cada pregunta */
+            color: #388e3c;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+
+        /* Para la parte de subir documento ELIMINAR SI NO FUNCUIONA */
+
+        /* Estilo para el contenedor de la sección de subida */
+        .upload-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        /* Estilo del botón de subida */
+        .upload-btn {
+            display: inline-block;
+            background-color: #00b894; /* Color de fondo llamativo */
+            color: white;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .upload-btn:hover {
+            background-color: #00a373; /* Cambia a un tono más oscuro cuando se pasa el mouse */
+        }
+
+        /* Estilo del input de tipo file (escondemos el botón por defecto) */
+        .file-input {
+            display: none; /* Escondemos el input file */
+        }
+
+        /* Estilo cuando se elige un archivo */
+        .file-input:focus {
+            outline: none;
+        }       
+
+
+
+        /* Formulario de contacto ACA CONTINUA*/
+        .contact-form {
+            margin-top: 40px;
+            background-color: #ffecb3;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilo para la sección de equipo */
+        .team-section {
+            margin-top: 60px;
+        }
+
+        .team-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f8e9;
+            border-radius: 8px;
+        }
+
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #388e3c;
+        }
+
+        .team-member p {
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .team-member a {
+            display: block;
+            color: #388e3c;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .team-member a:hover {
+            text-decoration: underline;
+        }

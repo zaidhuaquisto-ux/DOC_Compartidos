@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIGARRO NUTRUTIVO</title>
+    <style>
+
+
+        /* Botón para descargar el PDF ELIMINAR */
+
+        .boton-imprimir {
+            display: block;
+            margin: 20px auto;
+            background-color: #00b894;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+        /* PARA LAS 3 RAYAS */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para el botón que abre el menú */
+        .menu-btn {
+            font-size: 30px;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Estilos para el menú lateral */
+        .side-menu {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .side-menu a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .side-menu a:hover {
+            background-color: #575757;
+        }
+
+        /* El botón para cerrar el menú */
+        .side-menu .close-btn {
+            font-size: 36px;
+            color: white;
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .content {
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+        /* Esto ya lo estoy creando yo */
+        footer {
+            background-color: #2d3436; 
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .destacado {
+            background-color: #dfe6e9;
+            padding: 15px;
+            border-left: 5px solid #0984e3;
+            margin: 20px 0;
+        }
+        
+
+
+        nav {
+            background-color: #636e72;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffeaa7;
+        }
+
+
+
+
+
+
+
+        /* Estilos básicos para la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Título de la página */
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* Descripción del producto */
+        .description {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            margin-top: 20px;
+            background-color: #e0f7fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Sección de características */
+        .features {
+            margin-top: 30px;
+            background-color: #ffe082;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .features h2 {
+            color: #333;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            background-color: #fff3e0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        /* Estilos para las imágenes */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-container p {
+            font-size: 16px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+
+
+
+
+        /* Sección de comentarios */
+        .reviews {
+            margin-top: 40px;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .reviews h2 {
+            color: #333;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .reviews-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Espacio entre los cuadros de comentarios */
+            flex-wrap: wrap; /* Permite que los comentarios se ajusten a nuevas líneas si no caben */
+        }
+
+        .review {
+            background-color: #ffffff; /* Fondo blanco para los cuadros */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%; /* Controla el ancho de cada cuadro */
+            text-align: center;
+        }
+
+        /* Testimonio para centrar todo el texto (ZAID)*/
+        .review-two {
+            background-color: #c4e6f6; /* Fondo blanco para los cuadros */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 70%; /* Controla el ancho de cada cuadro */
+            text-align: center;
+
+            margin: 0 auto;
+            display: block;
+
+        }
+
+        .review p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .review .author {
+            font-weight: bold;
+            color: #388e3c; /* Un color verde para el nombre */
+            margin-bottom: 10px;
+        }
+
+        .review:nth-child(odd) {
+            background-color: #e1f5fe; /* Color de fondo diferente para los comentarios impares */
+        }
+
+        .review:nth-child(even) {
+            background-color: #fff3e0; /* Color de fondo diferente para los comentarios pares */
+        }
+
+        /* Para separar, LINEA */
+        .separador {
+            border: 0;
+            border-top: 3px solid #c4e6f6; /* Línea de color azul claro */
+            margin: 30px 0; /* Espacio arriba y abajo de la línea */
+        }
+       
+
+
+
+        /* Sección de preguntas frecuentes */
+        .faq {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f3f4f6; /* Fondo suave para toda la sección */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+        }
+
+        .faq h2 {
+            color: #388e3c;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .question {
+            background-color: #ffffff; /* Fondo blanco para cada pregunta */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra suave en cada pregunta */
+            transition: transform 0.3s ease-in-out; /* Transición al hacer hover */
+        }
+
+        .question:hover {
+            transform: translateY(-5px); /* Efecto de levantamiento al pasar el mouse */
+        }
+
+        .question-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #388e3c; /* Color verde para la pregunta */
+            margin-bottom: 10px;
+        }
+
+        .answer {
+            font-size: 16px;
+            color: #555; /* Color gris para la respuesta */
+            line-height: 1.5;
+        }
+
+        /* Icono al lado de la pregunta */
+        .question-title::before {
+            content: "➤ "; /* Agregar un ícono de flecha antes de cada pregunta */
+            color: #388e3c;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+
+        /* Para la parte de subir documento ELIMINAR SI NO FUNCUIONA */
+
+        /* Estilo para el contenedor de la sección de subida */
+        .upload-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        /* Estilo del botón de subida */
+        .upload-btn {
+            display: inline-block;
+            background-color: #00b894; /* Color de fondo llamativo */
+            color: white;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .upload-btn:hover {
+            background-color: #00a373; /* Cambia a un tono más oscuro cuando se pasa el mouse */
+        }
+
+        /* Estilo del input de tipo file (escondemos el botón por defecto) */
+        .file-input {
+            display: none; /* Escondemos el input file */
+        }
+
+        /* Estilo cuando se elige un archivo */
+        .file-input:focus {
+            outline: none;
+        }       
+
+
+
+        /* Formulario de contacto ACA CONTINUA*/
+        .contact-form {
+            margin-top: 40px;
+            background-color: #ffecb3;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilo para la sección de equipo */
+        .team-section {
+            margin-top: 60px;
+        }
+
+        .team-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f8e9;
+            border-radius: 8px;
+        }
+
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #388e3c;
+        }
+
+        .team-member p {
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .team-member a {
+            display: block;
+            color: #388e3c;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .team-member a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Contenido HTML -->
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <!-- El menú lateral que se desliza -->
+    <div class="side-menu" id="side-menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">×</a>
+        <a href="#Titulo">Inicio</a>
+        <a href="#Características">Acerca de</a>
+        <a href="#Comentarios">Comentarios</a>
+        <a href="#Contacto">Contáctanos</a>
+    </div>
+
+    <div class="content">
+        
+        <p>Haz clic en el botón ☰ para abrir el menú lateral.</p>
+    </div>    
+
+    <header>
+        <h1>𓂀 𝔹𝔼𝔹𝕆 𓂀</h1>
+        <h1 id="Titulo">Cigarro de Proteína 🚬</h1> <!-- Agregue el id-->
+        <p>De última novedad en productos 🛒</p>
+    </header>
+
+    <nav>
+        <a href="#Caracteristicas"> Producto</a>
+        <a href="#Dudas"> Preguntas</a>
+        <a href="#Contacto">Comprar ahora </a>
+    </nav>
+
+
+
+    <div class="container">
+        <h1>¡Bienvenidos!</h1>
+
+        <!-- Descripción del producto -->
+        <div class="description">
+            <p id="Inicio"   >Bienvenido a <strong>Cigarros de Proteína</strong>, la alternativa innovadora y 
+                saludable para los amantes del fitness que disfrutan de la experiencia del cigarro con un enfoque más saludable. 
+                Diseñado especialmente para quienes buscan una opción más segura, nuestros cigarros están elaborados con proteína, 
+                vitaminas y antioxidantes, ofreciendo un beneficio nutricional mientras disfrutas de un momento único. 
+                Aunque contienen una pequeña cantidad de tabaco, están pensados para aquellos que desean disfrutar de este 
+                ritual sin los efectos dañinos del tabaco tradicional. Descubre cómo Cigarros de Proteína puede acompañar 
+                tu estilo de vida activo de manera saludable."</p>
+        </div>
+
+
+        <!-- Imagen del producto, esta parte lo editare -->
+
+
+        <div class="image-container">
+            <div class="image-item">
+                <img src="cigarro.jpeg" alt="SuperCargador">
+                <div class="destacado"  > 
+                    <strong>Nota:</strong> "Bebo está revolucionando el mercado con una propuesta única: 
+                    un cigarro nutritivo que fusiona el placer de fumar con los beneficios de la proteína y nutrientes esenciales.
+                    Una marca que redefine el concepto de bienestar y salud para quienes buscan alternativas más saludables sin sacrificar el estilo."
+                </div>
+
+
+
+
+
+            </div>
+            <div class="image-item">
+                <img src="2cigarro.jpeg" alt="SuperCargador" />
+                <div class="destacado"  > 
+                    <strong>Transforma tu experiencia</strong> <br> "Redefine lo que significa disfrutar de un cigarro. 
+                    Con Cigarros de Proteína, no solo disfrutas del ritual de fumar, sino que también incorporas nutrientes esenciales 
+                    que complementan tu estilo de vida activo. Una alternativa más saludable, diseñada para los que buscan un 
+                    equilibrio entre placer y bienestar."
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Características del producto -->
+        <div id="Características" class="features">
+            <h2 id="Caracteristicas" >Características del Producto:</h2>
+            <ul>
+                <li> <strong>Proteína de alta calidad:</strong> Cada cigarro contiene proteínas esenciales que apoyan la regeneración muscular.</li>
+                <li><strong>Con un toque de tabaco:</strong> Aunque contiene una pequeña cantidad de tabaco, no tiene los efectos dañinos del tabaco tradicional, ofreciendo una alternativa menos perjudicial</li>
+                <li><strong>Vitaminas y antioxidantes:</strong> Refuerza el sistema inmunológico y favorece la salud celular.</li>
+                <li><strong>Diseñado para el fitness:</strong> Ideal para quienes buscan una alternativa saludable mientras mantienen un estilo de vida activo..</li>
+                <li><strong>Aroma y sabor similares:</strong> Ofrece una experiencia parecida a la de un cigarro convencional, pero con beneficios para la salud.</li>
+                <li> <strong>Fácil de consumir:</strong> Disfrútalo en cualquier momento del día, sin afectar tu bienestar.</li>
+            </ul>
+        </div>
+
+        <!-- Imagen de características -->
+        <div class="image-container">
+            <img src="Fumando.jpg" alt="Características del producto">
+            <p>"𝐃𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐝𝐞 𝐜𝐚𝐝𝐚 𝐢𝐧𝐡𝐚𝐥𝐚𝐜𝐢ó𝐧 𝐲 𝐝𝐞 𝐜𝐚𝐝𝐚 𝐞𝐱𝐡𝐚𝐥𝐚𝐜𝐢ó𝐧, 𝐬𝐚𝐛𝐢𝐞𝐧𝐝𝐨 𝐪𝐮𝐞 𝐥𝐨 𝐪𝐮𝐞 𝐞𝐬𝐭á𝐬 𝐞𝐱𝐩𝐮𝐥𝐬𝐚𝐧𝐝𝐨 𝐞𝐬 𝐛𝐞𝐧𝐞𝐟𝐢𝐜𝐢𝐨𝐬𝐨 𝐩𝐚𝐫𝐚 𝐭𝐮 𝐜𝐮𝐞𝐫𝐩𝐨, 𝐧𝐨 𝐝𝐚ñ𝐢𝐧𝐨."</p>
+        </div>
+
+        <!-- Comentarios de clientes -->
+        <div id="Comentarios" class="reviews">
+            <h2>Comentarios de Clientes:</h2>
+            <div class="reviews-container">
+                <div class="review">
+                    <p class="author">Juan Quispe</p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                    <p>"¡Increíble! Siempre me preocupó el impacto de fumar, pero con Cigarros de Proteína puedo disfrutar del ritual sin los efectos negativos. Me siento más saludable y mi rendimiento en el gimnasio ha mejorado."</p>
+                </div>
+                <div class="review">
+                    <p class="author">Ana Martínez</p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                    <p>"Nunca imaginé que un cigarro podría ser saludable. Me encanta la mezcla de proteína y antioxidantes. Es como si estuviera cuidando mi cuerpo mientras disfruto de algo que siempre me gustó. ¡Definitivamente lo recomendaré!"</p>
+                </div>
+                <div class="review">
+                    <p class="author">Carlos Flores</p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                    <p>"Como fumador habitual, me preocupaba dar el paso a algo más saludable, pero Cigarros de Proteína me sorprendió. No solo me satisface, sino que también siento que estoy mejorando mi salud. ¡Un cambio genial!"</p>
+                </div>
+                <div class="review">
+                    <p class="author">Javier Lopez</p>
+                    <p> ⭐</p>
+                    <p>"Lo probé esperando algo parecido a un cigarro normal, pero al no tener nicotina, no me dio la misma sensación. Aunque entiendo que es más saludable, si buscas la misma experiencia que un cigarro tradicional, este producto no es para ti."</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Imagen de testimonios EDITADO, ELIMINAR SI NO FUNCIONA-->
+
+        <div class="image-container">
+            <h2>Testimonios con fotos </h2>
+                <div class="destacado"  > 
+                    <strong>Nota:</strong> "Por lo general aquí se encuentran los comentarios en anónimo por razones desconocidas"
+                </div>
+
+        <div class="image-container">   <!-- Editado por mi-->
+            <div class="image-item"> 
+                <img width="500%" src="Planta.jpeg" alt="SuperCargador">  
+            </div>
+        </div>    
+             
+        <div class="review-two">
+            <p style="font-weight:bold ; color: #388e3c; margin-bottom: 10px;">Anónimo</p>
+            <p> ⭐⭐⭐⭐⭐</p>
+            <p>"Es tan natural que hasta mi planta lo disfruta xd cigarros de Proteína, el toque saludable para todos!!!"</p> 
+        </div>
+              
+        <hr class="separador">
+          
+        <div class="image-container">  
+            <div class="image-item"> 
+                <img width="500%" src="Cita.jpeg" alt="SuperCargador">  
+            </div>
+        </div>    
+             
+        <div class="review-two">
+            <p style="font-weight:bold ; color: #388e3c; margin-bottom: 10px;">Anónimo</p>
+            <p> ⭐⭐⭐</p>
+            <p>"Bueno gente, tengo una cita para este sabado con la chica que me gusta, no me decepciones cigarrito!! necesito estar en mi Prime 💪"</p> 
+        </div>
+              
+
+
+
+        <!-- Sección de subida de archivo -->
+        <div class="upload-section">
+            <label for="product-file" class="upload-btn">¡Compártenos tu foto!</label>
+            <input type="file" id="product-file" class="file-input" />
+        </div>  
+
+
+
+
+
+        <!-- Preguntas frecuentes -->
+        <div class="faq">
+            <h2 id="Dudas">Preguntas Frecuentes:</h2>
+            <div class="question">
+                <p class="question-title">¿Es Cigarro de Proteína completamente libre de tabaco?</p>
+                <p class="answer">No. Cigarros de Proteína contienen una pequeña cantidad de tabaco, pero no tiene los efectos dañinos del tabaco tradicional. Está diseñado con una mezcla de nutrientes saludables, incluyendo proteínas y antioxidantes, para ofrecer una experiencia más saludable.</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Puedo sustituir un cigarro tradicional por un Cigarro de Proteína?</p>
+                <p class="answer">Aunque ofrece una experiencia similar, Cigarros de Proteína no contiene nicotina. Es una alternativa saludable para aquellos que buscan disfrutar del ritual sin los efectos nocivos del tabaco, pero no será un sustituto exacto de un cigarro convencional.</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Este cigarro tiene los mismos efectos que un cigarro convencional?</p>
+                <p class="answer">No. Cigarros de Proteína están diseñados para brindar beneficios nutricionales sin los efectos dañinos del tabaco. Está pensado para quienes buscan un producto más saludable, pero no será exactamente igual a fumar un cigarro tradicional.</p>
+            </div>
+
+            <div class="question">
+                <p class="question-title">¿Cuántos Cigarros de Proteína puedo consumir al día?</p>
+                <p class="answer">Recomendamos moderar su consumo, ya que aunque es saludable, no es un producto diseñado para el consumo excesivo. Como con cualquier producto, la clave es el equilibrio.</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Cuáles son los beneficios de consumir Cigarros de Proteína?</p>
+                <p class="answer">Ofrecen una dosis de proteínas, vitaminas y antioxidantes, lo que ayuda a mejorar la salud celular, apoyar la regeneración muscular y fortalecer el sistema inmunológico</p>
+            </div>
+            <div class="question">
+                <p class="question-title">¿Es Cigarros de Proteína adecuado para personas que practican deporte?</p>
+                <p class="answer">¡Sí! Es ideal para quienes buscan una alternativa saludable que complemente su estilo de vida activo. Proporciona nutrientes beneficiosos para la recuperación muscular después del entrenamiento y puede ser parte de una dieta equilibrada.</p>
+            </div>
+        </div>
+
+
+
+        <!-- Formulario de contacto -->
+        <div class="contact-form">
+            <h2 id="Contacto"  >Contacto:</h2>
+            <p>¿Tienes preguntas o deseas más información? ¡Contáctanos!</p>
+            <form action="#">
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea id="message" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+
+         <!-- PARA CONVERTIRLO EN PDF -->
+        <button onclick="window.print()" class="boton-imprimir">
+        Descargar / Imprimir para compartirlos con tus amigos 📄 <br>
+        
+        </button>
+
+
+
+
+
+
+        <!-- Sección de fotos y enlaces -->
+        <div id="Contacto"  class="team-section">
+            <h2 style="text-align: center; color: #388e3c; font-size: 28px;">Conoce al equipo</h2>
+            <div class="team-images" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <div class="team-member">
+                    <img src="Zaid.jpg" alt="Miembros del equipo 1" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Zaid Joseph Huaquisto Zapana</p>
+                    <a target="_blank" href="https://www.tiktok.com/@zaicou.u" style="display: block; text-align: center; color: #388e3c;">𝗧𝗶𝗸 𝗧𝗼𝗸 ♪</a>
+                 
+                    <a href="https://www.instagram.com/zaico_kpop02?igsh=MWtuanp3ZTQzN2pv" target="_blank">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="https://wa.me/973116543" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+                <div class="team-member">
+                    <img src="Flor.jpeg" alt="Miembros del equipo 2" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Flor Milagros Merma Kanna</p>
+                    <a target="_blank" href="https://www.facebook.com/flor.mermakana" style="display: block; text-align: center; color: #388e3c;">ⓕ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤</a>
+                    <a href="mailto:fmermakana@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://wa.me/902770862" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+                <div class="team-member">
+                    <img src="Ariana.jpeg" alt="Miembros del equipo 3" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Ariana Danushka Tejada Bernal</p>
+                    <a target="_blank" href="https://www.instagram.com/ari_danu_?igsh=YWNrOG9vdGtieDht&utm_source=qr" style="display: block; text-align: center; color: #388e3c;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="mailto:aridanu622328@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://wa.me/976878824" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+                <div class="team-member">
+                    <img src="Santiago.jpeg" alt="Miembros del equipo 4" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Santiago Gabriel Salazar Durand</p>
+                    <a target="_blank" href="https://www.instagram.com/bbssavage?igsh=MXdybjNrdHlheHhzcw%3D%3D&utm_source=qr" style="display: block; text-align: center; color: #388e3c;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="mailto:aridanu622328@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://onlyfans.com/" target="_blank">𝐏𝐚𝐫𝐚 𝐦𝐚𝐬 𝐜𝐨𝐧𝐭𝐞𝐧𝐢𝐝𝐨 🔥</a>
+                </div>
+                <div class="team-member">
+                    <img src="Avi.jpeg" alt="Miembros del equipo 4" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    <p style="text-align: center; color: #333; font-weight: bold;">Avi Fabiana Valdivia Huacho</p>
+                    <a target="_blank" href="https://www.instagram.com/vee_vee305?igsh=MWFleTVwZWFpZ2Q3Zg%3D%3D&utm_source=qr" style="display: block; text-align: center; color: #388e3c;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾</a>
+                    <a href="mailto:avivalh2645@gmail.com">  𝘾𝙤𝙧𝙧𝙚𝙤 ✉️   </a>
+                    <a href="https://wa.me/970752499" target="_blank">📱𝐄𝐧𝐯𝐢𝐚𝐫 𝐦𝐞𝐧𝐬𝐚𝐣𝐞</a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Aquí va el código JavaScript, justo antes de </body> -->
+    <script>
+        // Función para abrir y cerrar el menú
+        function toggleMenu() {
+            var menu = document.getElementById("side-menu");
+
+            // Si el menú está cerrado, abrirlo
+            if (menu.style.width === "0px" || menu.style.width === "") {
+                menu.style.width = "250px"; // Abrir el menú
+                document.querySelector(".content").style.marginLeft = "250px"; // Mover el contenido a la derecha
+            } else {
+                menu.style.width = "0"; // Cerrar el menú
+                document.querySelector(".content").style.marginLeft = "0"; // Restaurar el contenido
+            }
+        }
+    </script>
+
+</body>
+
+<footer>
+    <p>© Creatividad e Innovación 2026</p>
+</footer>
+</html>

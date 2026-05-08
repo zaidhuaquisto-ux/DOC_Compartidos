@@ -1,0 +1,236 @@
+ https://emojidb.org/redes-sociales-emojis
+
+//////////////////////
+/* Estilos para las imágenes */
+
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-container p {
+            font-size: 16px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+
+
+/////////////////////////////////
+
+
+
+        <!-- Imagen del producto -->
+        <div class="image-container">
+            <img src="cigarro.jpeg" alt="SuperCargador">
+            <p>Imagen de nuestro SuperCargador. Puedes poner una imagen aquí y editar este texto.</p>
+        </div>
+
+
+///////////
+
+        /* Sección de comentarios */
+        .reviews {
+            margin-top: 40px;
+            background-color: #ffebee;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .reviews h2 {
+            color: #d32f2f;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .reviews .review {
+            background-color: #fbe9e7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .reviews .review p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .reviews .review .author {
+            font-weight: bold;
+            color: #d32f2f;
+        }
+
+
+
+        <!-- Comentarios de clientes -->
+        <div class="reviews">
+            <h2>Comentarios de Clientes:</h2>
+            <div class="review">
+                <p class="author">Juan Pérez</p>
+                <p>"¡Me encanta este cargador! Carga mi teléfono en un abrir y cerrar de ojos. Definitivamente lo recomiendo a todos." </p>
+            </div>
+            <div class="review">
+                <p class="author">Ana Martínez</p>
+                <p>"Es el mejor cargador que he tenido. Es súper rápido y el diseño es increíble. ¡No puedo vivir sin él!" </p>
+            </div>
+            <div class="review">
+                <p class="author">Carlos Sánchez</p>
+                <p>"Funciona perfecto. Lo uso todos los días y la carga es impresionante. El único inconveniente es que a veces se calienta un poco, pero sigue funcionando perfectamente."</p>
+            </div>
+        </div>
+
+
+///////////////////
+
+
+
+        /* Sección de preguntas frecuentes */
+        .faq {
+            margin-top: 40px;
+            background-color: #c8e6c9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .faq h2 {
+            color: #388e3c;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .faq .question {
+            font-size: 18px;
+            font-weight: bold;
+            color: #388e3c;
+            margin-top: 15px;
+        }
+
+        .faq .answer {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+
+
+        <!-- Preguntas frecuentes -->
+        <div class="faq">
+            <h2>Preguntas Frecuentes:</h2>
+            <div class="question">¿Cuánto tiempo tarda en cargar un dispositivo?</div>
+            <div class="answer">El SuperCargador carga completamente cualquier dispositivo en menos de 10 minutos.</div>
+            
+            <div class="question">¿Es compatible con todos los modelos de smartphones?</div>
+            <div class="answer">Sí, es compatible con todos los modelos de smartphones, tanto Android como iOS.</div>
+            
+            <div class="question">¿Es seguro usar el cargador durante la noche?</div>
+            <div class="answer">Sí, el SuperCargador está diseñado con protección contra sobrecarga y cortocircuitos, garantizando su seguridad durante el uso prolongado.</div>
+        </div>
+
+
+
+//////////////
+
+
+        <!-- Imagen de testimonios -->
+        <div class="image-container">
+            <img src="2cigarro.jpeg" alt="Testimonios de clientes">
+            <p>Imagen representativa de los clientes felices usando el SuperCargador.</p>
+        </div>
+
+
+
+
+////////////
+
+
+        <!-- Imagen de testimonios EDITADO, ELIMINAR SI NO FUNCIONA-->
+        <div class="image-container">
+            <h2>Testimonios con fotos </h2>
+            <div class="image-item">
+                <img src="Planta.jpeg" alt="SuperCargador">
+                <p> <strong>Anómino:</strong>"Es tan natural que hasta mi planta lo disfruta. ¡Cigarros de Proteína, el toque saludable para todos!"</p>
+            </div>
+            <div class="image-item">
+                <img src="2cigarro.jpeg" alt="SuperCargador" />
+                <p>Otra imagen del SuperCargador. Puedes editar este texto también.</p>
+            </div>
+        </div>
+
+//////////////////
+
+
+        <!-- Imagen de testimonios EDITADO, ELIMINAR SI NO FUNCIONA-->
+
+        <div class="image-container">
+            <h2>Testimonios con fotos </h2>
+            <div class="image-item">
+                <div class="reviews-container"> 
+                    <div class="review">
+                        <img src="Planta.jpeg" alt="SuperCargador">
+                        <p class="author">Anónimo</p>
+                        <p> ⭐⭐⭐⭐⭐</p>
+                        <p>"Es tan natural que hasta mi planta lo disfruta xd cigarros de Proteína, el toque saludable para todos!!!"</p>
+                    </div>
+                    <br>
+                    <div class="review">
+                        <img src="Cita.jpeg" alt="SuperCargador">
+                        <p class="author">Anónimo</p>
+                        <p> ⭐⭐⭐</p>
+                        <p>"Bueno gente, tengo una cita para este sabado con la chica que me gusta, no me decepciones cigarrito!! necesito estar en mi Prime 💪"</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+///////////////
+
+
+        <!-- Imagen de testimonios EDITADO, ELIMINAR SI NO FUNCIONA-->
+
+        <div class="image-container">
+            <h2>Testimonios con fotos </h2>
+                <div class="destacado"  > 
+                    <strong>Nota:</strong> "Por lo general aquí se encuentran los comentarios en anónimo por razones desconocidas"
+                </div>
+
+            <div class="image-item">
+                <div class="reviews-container"> 
+                    <div class="review">
+                        <img src="Planta.jpeg" alt="SuperCargador">
+                        <p class="author">Anónimo</p>
+                        <p> ⭐⭐⭐⭐⭐</p>
+                        <p>"Es tan natural que hasta mi planta lo disfruta xd cigarros de Proteína, el toque saludable para todos!!!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <div class="image-container">
+            <div class="image-item">
+                <div class="reviews-container"> 
+                    <div class="review">
+                        <img src="Cita.jpeg" alt="SuperCargador">
+                        <p class="author">Anónimo</p>
+                        <p> ⭐⭐⭐</p>
+                        <p>"Bueno gente, tengo una cita para este sabado con la chica que me gusta, no me decepciones cigarrito!! necesito estar en mi Prime 💪"</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+
+
+
+
+
+

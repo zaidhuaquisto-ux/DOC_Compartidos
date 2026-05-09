@@ -1,6 +1,7 @@
 # Título principal (nivel 1)
 # Esto crea un **encabezado** de nivel 1, el título más grande. 
 # Se usa para el título principal de la sección o documento.
+# Y aqui ando probando en la mac
 
 ## Subtítulo (nivel 2)
 ## Esto crea un **subtítulo** de nivel 2, más pequeño que el nivel 1.

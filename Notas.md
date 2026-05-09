@@ -92,7 +92,7 @@
     Usamos ![Texto alternativo] para agregar la imagen de vista previa (la miniatura del video).
     La URL de la imagen de vista previa se obtiene de YouTube, utilizando el formato https://img.youtube.com/vi/{VIDEO_ID}/0.jpg, donde {VIDEO_ID} es el identificador único del video.
     El enlace alrededor de la imagen lleva al video en YouTube, para que cuando alguien haga clic en la imagen, se redirija al video.
-<p>
+</p>
 
 
 [![NO APARECE TEXTO](https://img.youtube.com/vi/{VIDEO_ID}/0.jpg)](https://www.youtube.com/watch?v=CgKAMb2l6fA&list=RDCgKAMb2l6fA&start_radio=1)

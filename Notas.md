@@ -88,11 +88,39 @@
     <th>Hola<th>
     <th>Hola<th>
 </table>
-<p>
-    Usamos ![Texto alternativo] para agregar la imagen de vista previa (la miniatura del video).
-    La URL de la imagen de vista previa se obtiene de YouTube, utilizando el formato https://img.youtube.com/vi/{VIDEO_ID}/0.jpg, donde {VIDEO_ID} es el identificador único del video.
-    El enlace alrededor de la imagen lleva al video en YouTube, para que cuando alguien haga clic en la imagen, se redirija al video.
-</p>
+    <p> Usamos ![Texto alternativo] para agregar la imagen de vista previa (la miniatura del video).
+        La URL de la imagen de vista previa se obtiene de YouTube, utilizando el formato https://img.youtube.com/vi/{VIDEO_ID}/0.jpg, donde {VIDEO_ID} es el identificador único del video.
+        El enlace alrededor de la imagen lleva al video en YouTube, para que cuando alguien haga clic en la imagen, se redirija al video.
+    </p>
 
-
+---
 [![NO APARECE TEXTO](https://img.youtube.com/vi/{VIDEO_ID}/0.jpg)](https://www.youtube.com/watch?v=CgKAMb2l6fA&list=RDCgKAMb2l6fA&start_radio=1)
+
+---
+
+Esto resalta la sintaxis de **JavaScript**.
+
+### **Resumen**:
+- Los tres **backticks (````` ```)** crean un **bloque de código** en Markdown.
+- Los bloques de código **preservan el formato original** del texto, incluyendo **espacios, saltos de línea** y **tabulaciones**.
+- Puedes **especificar el lenguaje** después de los tres backticks para habilitar el **resaltado de sintaxis** en plataformas que lo soportan.
+
+### **¿Para qué usarlo?**
+- Para mostrar **código fuente** en tus apuntes de manera clara y estructurada.
+- Para mostrar **fragmentos de código** o **comandos** que necesitan mantener su formato original.
+- **Resaltado de sintaxis** para mejorar la legibilidad del código, si es necesario.
+
+¡Espero que ahora te quede claro cómo usar los bloques de código con Markdown! Si tienes más dudas, ¡estaré aquí para ayudarte! 😊
+
+
+```python
+def saludo():
+    print("¡Hola Mundo!")
+```
+# AH CON ESO SE CIERRA
+
+``` python
+# Comando para clonar un repositorio en Git
+git clone https://github.com/usuario/repositorio.git
+```
+## dsds

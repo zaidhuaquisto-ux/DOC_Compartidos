@@ -15,3 +15,16 @@ En Markdown, los enlaces se escriben así:
 
 `[Texto del enlace](URL-del-video)`
 
+ ![No se](https://es.wikipedia.org/wiki/Felis_catus)
+<table>
+    <tr>
+        <td>h0LA</td>
+        <td>h0LA</td>
+        <td>h0LA</td>
+    </tr>
+    <tr>
+        <td>Que cosa</td>
+        <td>Que cosa</td>
+        <td>Que cosa</td>
+    </tr>
+</table>

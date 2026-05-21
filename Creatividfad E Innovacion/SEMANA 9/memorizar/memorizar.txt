@@ -1,0 +1,91 @@
+METODO CIENTIFICO PARA LA SOLUCION DE PROBLEMAS
+
+Definicion y planteamiento del problema
+
+Formulacion de la hipotesis
+
+Analisis y recopilacion de datos
+
+Confrontacion de los datos con la hipotesis
+
+Conclusiones generales de los datos
+
+Nuevas predicciones
+
+
+METODO DEL EMBUDO
+
+Identidicacion de oportunidades
+
+Desarrollo de conceptos
+
+Modelo de negocio
+
+Desarrollo
+
+Prueba y validacionz
+
+Implementecion y comercializacion
+
+
+COMO FUNCIONA LA INNOVACION
+
+Disparador de cambio
+
+Quiebre
+
+Conciencia del quiebre
+
+Hacerse responsable
+
+Chequeo del cambio
+
+
+CPS (creative problem solving)
+
+FASE 1: Explorar el reto
+	
+	- Encontrar objetivos
+	- Encontrar hechos
+	- Encontrar problemas
+
+FASE 2: GENERAR IDEAS 
+
+	- Encontrar ideas
+
+FASE 3: Prepararse para la accion 
+
+	- Encontrar soluciones
+	- Encontrar aprobacion
+
+DESIGN THINKING
+
+	- Empatizar
+	- Definir
+	- Idear
+	- Prototipar
+	- Testear
+
+DESIGN SPRINT
+
+	- FASE 0: Comprender
+	- DIA 1: Definir
+	- DIA 2: Boceto
+	- DIA 3: Decidir
+	- DIA 4: Prototipar
+	- DIA 5: Validar
+
+
+
+
+
+LEAN STARTUP
+
+1. Hipotesis
+2. MVP (Producto Minimo Viable)
+3. Pivotar
+4. Aprender
+
+	- Construir
+	- Medir
+	- Aprender

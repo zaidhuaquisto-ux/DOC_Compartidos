@@ -1,0 +1,230 @@
+# PERFIL DEL PUESTO: SUPERVISOR DE ENSAMBLAJE
+
+## 1. Identificación del Puesto
+
+| Elemento              | Descripción                                         |
+| --------------------- | --------------------------------------------------- |
+| Nombre del puesto     | Supervisor de Ensamblaje                            |
+| Código del puesto     | 192                                                 |
+| Categoría ocupacional | Nivel intermedio                                    |
+| Contacto permanente   | Personal interno de producción y áreas relacionadas |
+
+## 2. Ubicación Organizacional del Puesto
+
+El puesto de Supervisor de Ensamblaje pertenece al área de producción textil y se ubica en un nivel intermedio dentro de la estructura organizacional. Reporta directamente al Jefe de Planta y mantiene coordinación permanente con las áreas operativas involucradas en los procesos de ensamblaje, control de calidad y abastecimiento de complementos para la confección de prendas.
+
+**Supervisor inmediato:**
+
+| Elemento   | Descripción              |
+| ---------- | ------------------------ |
+| Nombre     | Juan Núñez Martin Vargas |
+| Cargo      | Jefe de Planta           |
+| Antigüedad | Más de 20 años           |
+
+**Titular del puesto:**
+
+| Elemento   | Descripción               |
+| ---------- | ------------------------- |
+| Nombre     | Ruth Quispe Avendaña      |
+| Cargo      | Supervisora de Ensamblaje |
+| Antigüedad | 32 años                   |
+
+## 3. Misión del Puesto
+
+**Supervisar y coordinar las operaciones del proceso de ensamblaje y el desempeño del personal a cargo, de acuerdo con los procedimientos operativos y estándares de calidad establecidos, para asegurar la eficiencia productiva, la continuidad del proceso y el cumplimiento de los objetivos del área.**
+
+## 4. Funciones Esenciales del Puesto
+
+El Supervisor de Ensamblaje tiene como función principal monitorear y supervisar las operaciones relacionadas con el ensamblaje de prendas, garantizando el cumplimiento de los estándares de producción y calidad establecidos por la organización.
+
+Entre sus funciones esenciales se encuentran supervisar el desempeño del personal operativo, resolver incidencias surgidas durante el proceso de producción, verificar la calidad de costuras y acabados, así como coordinar el abastecimiento oportuno de complementos necesarios para el ensamblaje de prendas, tales como mangas, cuellos y puños.
+
+Asimismo, el puesto implica realizar seguimiento periódico a los indicadores de eficiencia del área mediante supervisión directa del personal subalterno. De manera eventual, el ocupante del puesto puede asumir temporalmente funciones correspondientes a otros supervisores de área, garantizando la continuidad operativa.
+
+Para el desempeño de sus funciones, utiliza herramientas e implementos de trabajo como tijeras, piqueteras, centímetro y computadora, esta última empleada principalmente para la verificación de correos electrónicos y el registro de información vinculada a la producción de prendas.
+
+### Responsabilidades del Puesto
+
+El puesto implica responsabilidad directa sobre el personal subalterno mediante supervisión constante de las actividades operativas. Asimismo, posee responsabilidad primaria en el uso adecuado de materiales, manejo de documentación vinculada al proceso productivo y tratamiento de información general de la organización.
+
+En relación con los equipos de trabajo, presenta una responsabilidad secundaria, especialmente respecto al uso de herramientas e instrumentos operativos. No contempla responsabilidad sobre el manejo de dinero.
+
+Respecto a la confidencialidad de la información, el puesto tiene acceso a información general y semiconfidencial cuya divulgación no representaría un impacto significativo para la organización. Los errores asociados al cargo son generalmente detectados dentro del área y suelen ocasionar principalmente pérdida de tiempo operativo.
+
+## 5. Coordinaciones Principales del Puesto
+
+### Relaciones internas
+
+El puesto mantiene coordinación permanente con el personal operativo del área de ensamblaje para la supervisión de procesos de costura y verificación del cumplimiento de estándares de producción.
+
+### Relaciones con otras áreas
+
+Se coordina principalmente con las áreas encargadas del control de calidad y abastecimiento de complementos textiles, con el objetivo de asegurar la adecuada continuidad del proceso de ensamblaje.
+
+### Horario de trabajo
+
+| Turno  | Horario                 |
+| ------ | ----------------------- |
+| Mañana | 5:00 a. m. – 1:30 p. m. |
+| Tarde  | 1:30 p. m. – 9:45 p. m. |
+
+### Condiciones del puesto
+
+El trabajo se desarrolla principalmente en ambientes interiores compartidos entre oficina y planta de producción, aunque ocasionalmente puede implicar exposición a condiciones externas.
+
+Entre las características del ambiente laboral destacan la exposición continua a polvo, suciedad y actividad constante del entorno industrial, así como exposición ocasional a ruido, vibraciones, condiciones térmicas variables y riesgos mecánicos propios del área de producción textil.
+
+### Riesgos ocupacionales
+
+El puesto presenta exposición moderada a riesgos ocupacionales relacionados con afecciones en ojos, manos, sistema respiratorio, sistema circulatorio y audición.
+
+Asimismo, existe posibilidad de accidentes laborales como cortes, heridas, aplastamientos, choques eléctricos y disminución parcial de la capacidad auditiva o visual, estimándose un grado de riesgo moderado que generalmente no excede tres días de reposo.
+
+### Posibilidad de aburrimiento laboral
+
+La posibilidad de monotonía laboral es reducida, debido a que la empresa opera mediante un sistema modular que exige interacción constante entre diversas áreas y continuidad en el flujo operativo.
+
+
+
+
+
+## 6. Formación Académica
+
+| Elemento                    | Descripción                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------------- |
+| Nivel educativo mínimo      | Educación secundaria completa                                                                |
+| Formación técnica requerida | Técnico básico o intermedio en supervisión y confección textil                               |
+| Formación deseable          | Formación técnica completa en confección textil o especialización afín al área de producción |
+
+La formación académica requerida para el puesto debe proporcionar conocimientos técnicos relacionados con procesos de ensamblaje, supervisión de producción y control de calidad en el sector textil. Asimismo, resulta importante que el ocupante del puesto posea competencias para la interpretación de instrucciones operativas y supervisión de personal.
+
+## 7. Conocimientos Requeridos Específicos
+
+### Entrenamiento para el desempeño del puesto
+
+El ocupante del puesto requiere capacitaciones prácticas orientadas al aprendizaje de procesos operativos, supervisión de actividades de ensamblaje y resolución de incidencias relacionadas con la producción. Asimismo, el entrenamiento puede incluir simulaciones de funciones laborales para facilitar la adaptación al cargo.
+
+| Elemento                          | Descripción                         |
+| --------------------------------- | ----------------------------------- |
+| Tiempo de entrenamiento requerido | De dos a tres meses                 |
+| Tipo de entrenamiento             | Capacitación práctica y supervisada |
+
+### Capacitación requerida
+
+Se considera importante complementar la formación del puesto con capacitaciones relacionadas con responsabilidad laboral, valores organizacionales y fortalecimiento de habilidades blandas, debido a la interacción constante con personal operativo y la necesidad de supervisar equipos de trabajo.
+
+Asimismo, se recomienda formación técnica completa en confección textil y actualización permanente en procedimientos operativos, estándares de calidad y gestión de personal.
+
+## 8. Experiencia
+
+| Elemento                                | Descripción         |
+| --------------------------------------- | ------------------- |
+| Experiencia previa requerida            | Sí                  |
+| Tiempo mínimo de experiencia            | Más de tres años    |
+| Tiempo estimado de adaptación al puesto | De dos a tres meses |
+
+La experiencia previa resulta fundamental para el adecuado desempeño del puesto, debido a la complejidad de las funciones relacionadas con supervisión de procesos, resolución de incidencias operativas, manejo de personal y control de calidad dentro del área de ensamblaje.
+
+## 9. Competencias
+
+### Competencias técnicas y laborales
+
+El puesto requiere competencias orientadas a la supervisión efectiva de procesos y personal, destacando las siguientes:
+
+* Capacidad para la toma de decisiones.
+* Capacidad crítica y resolución de problemas.
+* Atención al detalle y precisión.
+* Capacidad de organización y planificación del trabajo.
+* Manejo de indicadores y razonamiento numérico.
+* Sentido práctico y orientación al cumplimiento de objetivos.
+* Concentración en ambientes con distractores.
+* Capacidad de innovación y mejora continua.
+* Disciplina, puntualidad y honestidad.
+* Habilidad para la comunicación verbal y escrita.
+* Orientación al trabajo colaborativo y equidad laboral.
+
+### Competencias blandas
+
+El puesto exige un adecuado manejo interpersonal y habilidades de liderazgo para garantizar el cumplimiento de las actividades operativas, destacando:
+
+* Liderazgo.
+* Dinamismo y adaptabilidad.
+* Trabajo en equipo.
+* Comunicación eficaz.
+* Escucha activa.
+* Estabilidad emocional.
+* Compromiso organizacional.
+* Responsabilidad.
+* Organización del trabajo.
+* Pensamiento crítico.
+* Creatividad.
+* Orientación al cliente interno.
+* Espíritu de servicio.
+* Capacidad de interrelación interpersonal.
+
+### Exigencias físicas del puesto
+
+El cargo requiere actividad física constante, incluyendo periodos prolongados de permanencia de pie y desplazamiento continuo dentro del área de producción.
+
+| Actividad              | Exigencia aproximada |
+| ---------------------- | -------------------- |
+| Permanecer de pie      | 7 horas              |
+| Caminata y supervisión | 8 horas              |
+| Hablar                 | 4 horas              |
+| Uso de tacto           | 8 horas              |
+| Fuerza manual          | 4 horas              |
+| Fuerza en piernas      | 8 horas              |
+
+Asimismo, el puesto demanda uso continuo de capacidades sensoriales como visión, audición y tacto para la supervisión de procesos, identificación de errores y verificación de estándares de calidad.
+
+### Destreza y precisión
+
+El puesto requiere un nivel elevado de precisión y coordinación motriz, especialmente para:
+
+* Cumplir con exactitud los procedimientos de trabajo.
+* Coordinar movimientos físicos y percepción sensorial.
+* Ejecutar actividades que demanden rapidez y precisión.
+* Supervisar tareas delicadas relacionadas con confección y ensamblaje.
+
+### Esfuerzo mental
+
+El cargo demanda capacidad de adaptación interpersonal, empatía y escucha activa para la adecuada gestión del equipo de trabajo, así como esfuerzo mental continuo para la toma de decisiones, resolución de problemas operativos y mantenimiento de la productividad del área.
+
+## 10. Tipo de Personalidad
+
+### Características psicológicas requeridas
+
+El puesto requiere un perfil psicológico orientado al liderazgo, supervisión y control de procesos productivos, destacando las siguientes características:
+
+#### Aptitudes cognitivas
+
+* Razonamiento lógico.
+* Capacidad de síntesis.
+* Comprensión mecánica y operativa.
+
+#### Percepción
+
+* Atención a detalles visuales relacionados con colores, formas y acabados.
+* Percepción auditiva para identificación de incidencias operativas.
+* Capacidad de observación y vigilancia de procesos.
+* Atención sostenida frente a múltiples estímulos del entorno.
+
+#### Memoria y concentración
+
+* Retención de instrucciones escritas y orales.
+* Capacidad para recordar procedimientos operativos.
+* Concentración sostenida para supervisión de diagramas, órdenes de trabajo y procesos de ensamblaje.
+
+#### Capacidad analítica y juicio
+
+* Identificación temprana de fallas en procesos y maquinaria.
+* Capacidad de juicio independiente para resolver problemas operativos.
+* Toma de decisiones orientada a la eficiencia del área.
+
+#### Iniciativa e ingenio
+
+* Capacidad para proponer mejoras en procedimientos de trabajo.
+* Resolución autónoma de situaciones no previstas.
+* Disposición para optimizar procesos productivos.
+
+En términos generales, el puesto requiere una personalidad responsable, organizada, disciplinada, empática y orientada al liderazgo, con capacidad para trabajar bajo presión y mantener supervisión constante sobre procesos y personal.

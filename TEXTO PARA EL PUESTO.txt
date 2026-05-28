@@ -16,11 +16,7 @@ DESCRIPCIÓN DEL PUESTO
 
 	- Accesorios del puesto: Tijera, piqueteras, centimetro y computadora
 
-	- RELACIONES CON OTROS PUESTOS:
-		
-		- Dentro de la empresa (internas): Revision de costuras, por cada puesto de operación
 
-		- Con otras areas de la empresa: Verificación de calidad de costura y abastecimiento de complementos (manga, cuello y puño)
 
 	- RESPONSABILIDAD: Supervisa a personal subalterno, Usa la supervision directa. Supervicion periodica para asegurar indices de eficiencia. 
 
@@ -41,6 +37,117 @@ DESCRIPCIÓN DEL PUESTO
 			- Acceso a información confidencial cuya divulgación podría ocasionar disgusto: NO
 			- Los errores son conocidos en el area, la perdida seria generalmente de tiempo.
 
+5) Coordinaciones Principales del Puesto
+
+	- Horaio: 
+		* Horario de ingreso: Turno mañana es 5:00 am y hora de salida es 1:30 pm 
+		* Horario de ingreso: Turno tarde es de 1:30 am y 9:45 pm
+
+	- Supervisor inmediato:
+		*Nombre: Juan Nuñez Martin Vargas
+		*Cargo: Jefe de planta
+		*Antiguedad: Mas de 20 años
+	-Titular del puesto: 
+		*Nombre: Ruth Quispe Avendaña
+		*Cargo: Supervisora de ensamblaje
+		*Antiguedad: 32 años
+	
+	- RELACIONES CON OTROS PUESTOS:
+		
+		- Dentro de la empresa (internas): Revision de costuras, por cada puesto de operación
+
+		- Con otras areas de la empresa: Verificación de calidad de costura y abastecimiento de complementos (manga, cuello y puño)
+
+	- Condiciones del puesto: Oficina compartida, oficina de atención al público, Oficina y planta, A la interperie
+	- Caracteristicas del puesto de trabajo: Interior (Continua), Caliente (Ocasional), Frio (Ocasional), Olores (Ocasional e Insportable), Seco (Ocasional), Polvoriento (Continua e Insportable), Sucio (Continua), Bulliviodo (Ocasional), Vibracion (Ocasional e Insoportable), Riesgos mecanicos (Ocasional e Insoportable), Condiciones Toxicas (Ocasional e Insoportable)
+	
+	- Riesgos
+		* De enfermedades ocupacionales: Ojos, manos, Oidos, Sistema Circualtorio, Sistema Respiratorio.
+		* De accidentes: Cortes, Mutilaciones, Heridas, Aplastamiento, Shock Electrico, Disminucion o perdidad de la audicion, Disminucion o perdida de la vision
+		* Grado de riesgo: Riesgo moderado el cual no excede a tres dias de reposo. 
+	- Posibilidad de Aburrimiento: No porque la empresa opera bajo un sistema modular, manteniendo un flujo de trabajo continuo entre distintas areas
+
+6) FORMACION ACADEMICA: 
+	* Habilidad para leer y escribir, Educacion Primaria, Secundaria completa, Tecnico basico, intermedio, Tecnico supervisores. Tecnico en confeccion textil
+
+
+7) CONOCIMIENTOS REQUERIDOS ESPECIFICOS:
+	
+	- Entrenamiento que ayudara al trabajador para adquirir habilidad en el puesto: Capacitaciones practicas orientadas en los procesos operativos o realizar una simulación de funciones laborales
+	- Tiempo de entrenamiento que requiere el puesto para desempeñarlo con eficacia: Por dos a tres meses
+	- CAPACITACION: 
+		* Que preparacion no se proporciona, pero que seria de importancia para el puesto: Responsabilidad y Valores 
+		* Que preparacion adicional se requiere para el puesto y por qué: Formacion tecnica eompleta y un buen desarrollo de habilidades blandas.
+	
+8) EXPERIENCIA
+
+	- Para el buen desempeño del puesto se requiere experiencia: Si, es importante, mas de 3 años, de adaptación de dos a tres meses. 
+
+9) COMPETENCIAS: 
+
+	- Competencias laborales requeridas para el puesto: 
+		* Capacidad para tomar decisiones
+		* Capacidad de manejar numeros
+		* Capacidad crítica
+		* Capacidad de innovación
+		* Atencion para el detalle
+		* Capacidad artistica
+		* Capacidad de organizacion
+		* Capacidad de aceptar la monotonia
+		* Capacidad de concentrarse en un medio de distracciones
+		* Grado de prudencia
+		* Expresion verbal
+		* Destresa para la expresion escrita
+		* Caligrafia y ortografia
+		* Precisión
+		* Puntualidad
+		* Sentido del trabajo común
+		* Sentido practico
+		* Espiritu de disciplina
+		* Exigencias de honestidad
+		* Equidad
+		* Apariencia personal
+		* Habilidad para presentarse y tratar al público
+
+	- Competencias blandas:
+		* Dinamismo, adaptabilidad, capacidad de interrelacion, liderazgo, estabilidad emocional, compromiso, trabajo en equipo, orientacion al cliente interno, organizacion del trabajo, responsabilidad, comunicación eficaz, pensamiento crítico, creatividad, espiritu de servicio, escucha activa. 
+
+	- Caracteristicas físicas:
+
+		* De pie: 7 horas
+		* Sentado: Envio de correos	
+		* Caminando: 8 horas
+		* Agachado: 4 horas
+		* Limpiar: 
+		* Hablar: 4 horas
+		* Usar el tacto: 8 horas al dia
+		* Usar la audicion
+		* Usar la vision
+		* Fuerza en las manos: 4 horas, inspeccion
+		* Fuerza en las piernas: 8 horas, supervision
+
+	- Destreza y precision: Todo es de nivel alto 
+		* Para cumplir con exactitud el trabajo
+		* Para coordinar los sentidos y movimientos fisicos
+		* Para trabajo rapido con movimientos fisicos
+		* Para movimientos delicados
+		* Para movimientos delicados y amplios 
+
+	- Esfuerzo mental: Adaptarse a las actitudes de los compañeros, ser empatica y productiva. Ser de escucha activa para comprender problematicas ajenas.
+
+10) TIPO DE PERSONALIDAD
+
+	- Caracteisticas psicologícas: 
+		* Aptitudes mentales: Mecanica, Logica y sintesis
+		* Percepcion: Colores, Formas, Sonidos, Profundidad, Atencion al cliente, creatividad, iniciativa, palabra numero, velocidad, distancia, prudencia
+		* Memoria: Detalles, instrucciones escritas
+		* Concentración: Para asignaciones orales / instrucciones, para leer diagramas y ordenes de trabajo, Para operar maquinas y herramientas de trabajo,
+		* Analisis: Saber si las maquinas o los procesos estan funcianndom para prevenir fallas
+		* Juicio: Ser independiente al plantear las operaciones
+		* Ingenio: Crear diseños o modelos originales, crear nuevos procedimientos o tecnicas
+		* Iniciativa: Seguir ordenes tal como se le ordenó, procedimientos en ausencia de reglas abastecidas.
+		* Trabajo completo diverso, con esfuerzo mental continuo y cuidadoso. 
+		
 
 			
 	

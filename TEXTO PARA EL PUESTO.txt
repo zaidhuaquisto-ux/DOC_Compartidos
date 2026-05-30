@@ -148,17 +148,203 @@ DESCRIPCIÓN DEL PUESTO
 		* Iniciativa: Seguir ordenes tal como se le ordenó, procedimientos en ausencia de reglas abastecidas.
 		* Trabajo completo diverso, con esfuerzo mental continuo y cuidadoso. 
 		
+////////////////
+
+Tabla 1
+Identificación del puesto de Supervisor de Ensamblaje
+
+Tabla 2
+Información del supervisor inmediato y titular del puesto
+
+Tabla 3
+Horario laboral del puesto de Supervisor de Ensamblaje
+
+Tabla 4
+Formación académica requerida para el puesto de Supervisor de Ensamblaje
+
+Tabla 5
+Tiempo y tipo de entrenamiento requerido para el puesto
+
+Tabla 6
+Experiencia requerida para el puesto de Supervisor de Ensamblaje
+
+Tabla 7
+Exigencias físicas del puesto de Supervisor de Ensamblaje
+
+////
+
+## 4. Funciones Esenciales del Puesto
+
+| N.º | Función esencial del puesto                                                                                                                                                             | Tipo de función          |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| 1   | **Supervisar** las operaciones del proceso de ensamblaje de prendas, asegurando el cumplimiento de los estándares de producción y calidad establecidos por la empresa.                  | De control               |
+| 2   | **Monitorear** el desempeño del personal operativo durante el proceso de ensamblaje, con la finalidad de garantizar la eficiencia y continuidad de las actividades productivas.         | De gestión               |
+| 3   | **Resolver** incidencias operativas presentadas en el área de ensamblaje, con el propósito de evitar retrasos y asegurar el flujo continuo de producción.                               | Analítica                |
+| 4   | **Verificar** la calidad de costuras, acabados y ensamblaje de prendas, a fin de garantizar el cumplimiento de los criterios de calidad establecidos.                                   | De control               |
+| 5   | **Coordinar** el abastecimiento oportuno de complementos textiles (mangas, cuellos y puños), para asegurar la continuidad del proceso de ensamblaje.                                    | De coordinación          |
+| 6   | **Realizar** seguimiento periódico a los indicadores de eficiencia del área, con la finalidad de identificar oportunidades de mejora en el proceso productivo.                          | Analítica                |
+| 7   | **Supervisar** al personal subalterno mediante seguimiento directo de actividades, para garantizar el cumplimiento de procedimientos operativos y metas del área.                       | De gestión               |
+| 8   | **Sustituir** temporalmente a supervisores de otras áreas cuando sea requerido, con el objetivo de asegurar la continuidad operativa de la planta.                                      | Operativa / de ejecución |
+| 9   | **Registrar y verificar** información relacionada con la producción de prendas mediante el uso de herramientas informáticas, para mantener el control y seguimiento de las operaciones. | Operativa / de ejecución |
+| 10  | **Utilizar** herramientas e implementos de trabajo (tijeras, piqueteras, centímetro y computadora), con el propósito de facilitar el monitoreo y control del proceso de ensamblaje.     | Operativa / de ejecución |
+
+### Responsabilidades del puesto
+
+El puesto implica responsabilidad directa sobre el personal subalterno mediante supervisión constante de actividades operativas. Asimismo, posee responsabilidad primaria sobre el uso adecuado de materiales, tratamiento de información general y manejo de documentación relacionada con el proceso productivo.
+
+Respecto a equipos e instrumentos de trabajo, presenta responsabilidad secundaria asociada al uso de herramientas operativas y equipos informáticos. El puesto no contempla responsabilidad sobre el manejo de dinero.
+
+Asimismo, tiene acceso a información general y semiconfidencial, cuya divulgación no representa un impacto crítico para la organización. Los errores asociados al puesto suelen detectarse dentro del área y ocasionan principalmente pérdida de tiempo operativo.
 
 			
 	
-		
+
+| Elemento                                | Descripción                                                                                                                                                                                                                                                                             |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Relaciones internas**                 | Coordinación permanente con el personal operativo del área de ensamblaje para supervisión de procesos de costura y verificación del cumplimiento de estándares de producción.                                                                                                           |
+| **Relaciones con otras áreas**          | Coordinación con control de calidad y abastecimiento de complementos textiles, asegurando la continuidad del proceso de ensamblaje.                                                                                                                                                     |
+| **Horario de trabajo**                  | Turno Mañana: 5:00 a. m. – 1:30 p. m. Turno Tarde: 1:30 p. m. – 9:45 p. m.                                                                                                                                                                                                           |
+| **Condiciones del puesto**              | Trabajo en ambientes interiores (oficina y planta de producción), ocasional exposición a condiciones externas. Exposición continua a polvo, suciedad, actividad constante; ocasionalmente ruido, vibraciones, temperaturas variables y riesgos mecánicos del área de producción textil. |
+| **Riesgos ocupacionales**               | Riesgos moderados: afecciones en ojos, manos, sistema respiratorio, circulatorio y audición. Posibles accidentes: cortes, heridas, aplastamientos, choques eléctricos, disminución parcial de capacidad auditiva o visual; generalmente reposo ≤ 3 días.                                |
+| **Posibilidad de aburrimiento laboral** | Reducida, debido al sistema modular que exige interacción constante entre áreas y continuidad en el flujo operativo.                                                                                                                                                                    |
 
 
 
 
+///////////////////
 
+**Tabla 7**
+*Competencias técnicas y laborales del puesto de Supervisor de Ensamblaje*
 
+| Competencia                                   | Descripción                                                                                       |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Toma de decisiones                            | Capacidad para elegir alternativas adecuadas durante la supervisión de procesos y personal.       |
+| Capacidad crítica y resolución de problemas   | Habilidad para analizar situaciones operativas y proponer soluciones oportunas.                   |
+| Atención al detalle y precisión               | Capacidad para verificar el cumplimiento de estándares de producción y calidad.                   |
+| Organización y planificación                  | Habilidad para organizar actividades, tiempos y recursos del área de ensamblaje.                  |
+| Manejo de indicadores y razonamiento numérico | Capacidad para interpretar datos de producción y utilizar indicadores en la toma de decisiones.   |
+| Sentido práctico y orientación a objetivos    | Capacidad para actuar con eficiencia y enfocarse en el cumplimiento de metas operativas.          |
+| Concentración                                 | Habilidad para mantener la atención en ambientes con distractores propios del entorno industrial. |
+| Innovación y mejora continua                  | Capacidad para proponer mejoras en los procesos de trabajo.                                       |
+| Disciplina, puntualidad y honestidad          | Conductas orientadas al cumplimiento responsable de normas y funciones del puesto.                |
+| Comunicación verbal y escrita                 | Habilidad para transmitir información clara al personal operativo y áreas relacionadas.           |
+| Trabajo colaborativo y equidad laboral        | Capacidad para promover la cooperación y el trato justo dentro del equipo de trabajo.             |
 
+**Tabla 8**
+*Competencias blandas del puesto de Supervisor de Ensamblaje*
+
+| Competencia blanda             | Descripción                                                                                 |
+| ------------------------------ | ------------------------------------------------------------------------------------------- |
+| Liderazgo                      | Capacidad para dirigir, orientar y motivar al personal operativo.                           |
+| Dinamismo y adaptabilidad      | Habilidad para responder adecuadamente a cambios en el ritmo o condiciones del trabajo.     |
+| Trabajo en equipo              | Capacidad para colaborar con el personal de ensamblaje y otras áreas.                       |
+| Comunicación eficaz            | Habilidad para transmitir instrucciones, observaciones y retroalimentación de manera clara. |
+| Escucha activa                 | Capacidad para atender y comprender las necesidades o dificultades del equipo.              |
+| Estabilidad emocional          | Capacidad para mantener autocontrol frente a situaciones de presión laboral.                |
+| Compromiso organizacional      | Disposición para contribuir al cumplimiento de los objetivos de la empresa.                 |
+| Responsabilidad                | Cumplimiento oportuno y adecuado de las funciones asignadas.                                |
+| Organización del trabajo       | Capacidad para ordenar actividades y priorizar tareas operativas.                           |
+| Pensamiento crítico            | Habilidad para analizar situaciones y tomar decisiones fundamentadas.                       |
+| Creatividad                    | Capacidad para plantear alternativas de mejora en el proceso de ensamblaje.                 |
+| Orientación al cliente interno | Disposición para atender los requerimientos de las áreas vinculadas al proceso productivo.  |
+| Espíritu de servicio           | Actitud colaborativa frente a las necesidades del equipo y de la organización.              |
+| Interrelación interpersonal    | Capacidad para mantener relaciones laborales adecuadas con el personal y otras áreas.       |
+
+**Tabla 9**
+*Exigencias físicas del puesto de Supervisor de Ensamblaje*
+
+| Actividad              | Exigencia aproximada |
+| ---------------------- | -------------------: |
+| Permanecer de pie      |              7 horas |
+| Caminata y supervisión |              8 horas |
+| Hablar                 |              4 horas |
+| Uso de tacto           |              8 horas |
+| Fuerza manual          |              4 horas |
+| Fuerza en piernas      |              8 horas |
+
+*Nota.* El puesto demanda actividad física constante, desplazamiento continuo dentro del área de producción y uso permanente de capacidades sensoriales como visión, audición y tacto para supervisar procesos, identificar errores y verificar estándares de calidad.
+
+**Tabla 10**
+*Destreza y precisión requeridas para el puesto de Supervisor de Ensamblaje*
+
+| Elemento                        | Descripción                                                                           |
+| ------------------------------- | ------------------------------------------------------------------------------------- |
+| Precisión en procedimientos     | Cumplimiento exacto de los procedimientos de trabajo establecidos.                    |
+| Coordinación motriz y sensorial | Coordinación entre movimientos físicos y percepción sensorial durante la supervisión. |
+| Rapidez y precisión             | Ejecución de actividades que demandan respuesta rápida y control preciso.             |
+| Supervisión de tareas delicadas | Verificación de actividades relacionadas con confección y ensamblaje textil.          |
+
+**Tabla 11**
+*Esfuerzo mental requerido para el puesto de Supervisor de Ensamblaje*
+
+| Elemento                           | Descripción                                                                              |
+| ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| Adaptación interpersonal           | Capacidad para relacionarse adecuadamente con el equipo de trabajo.                      |
+| Empatía y escucha activa           | Habilidad para comprender al personal y atender sus necesidades operativas.              |
+| Toma de decisiones                 | Capacidad para decidir oportunamente ante situaciones propias del proceso productivo.    |
+| Resolución de problemas operativos | Habilidad para identificar dificultades y aplicar soluciones durante la jornada laboral. |
+| Mantenimiento de la productividad  | Esfuerzo mental continuo para asegurar el cumplimiento de metas del área de ensamblaje.  |
+
+/////////////////
+
+PERSONALIDAD
+
+## 10. Tipo de personalidad
+
+**Tabla 12**
+*Características psicológicas requeridas para el puesto de Supervisor de Ensamblaje*
+
+| Elemento                     | Descripción                                                                                         |
+| ---------------------------- | --------------------------------------------------------------------------------------------------- |
+| Perfil psicológico requerido | El puesto requiere un perfil orientado al liderazgo, supervisión y control de procesos productivos. |
+| Rasgos generales             | Personalidad responsable, organizada, disciplinada, empática y orientada al liderazgo.              |
+| Capacidad de trabajo         | Capacidad para trabajar bajo presión y mantener supervisión constante sobre procesos y personal.    |
+
+**Tabla 13**
+*Aptitudes cognitivas requeridas para el puesto de Supervisor de Ensamblaje*
+
+| Aptitud cognitiva                | Descripción                                                                                                       |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Razonamiento lógico              | Capacidad para analizar situaciones operativas y tomar decisiones coherentes.                                     |
+| Capacidad de síntesis            | Habilidad para resumir información relevante y utilizarla en la supervisión del proceso productivo.               |
+| Comprensión mecánica y operativa | Capacidad para comprender el funcionamiento de procesos, maquinaria y actividades propias del área de ensamblaje. |
+
+**Tabla 14**
+*Percepción requerida para el puesto de Supervisor de Ensamblaje*
+
+| Tipo de percepción       | Descripción                                                                                          |
+| ------------------------ | ---------------------------------------------------------------------------------------------------- |
+| Atención visual          | Identificación de detalles relacionados con colores, formas, acabados y presentación del producto.   |
+| Percepción auditiva      | Capacidad para identificar incidencias operativas mediante estímulos sonoros del entorno de trabajo. |
+| Observación y vigilancia | Supervisión constante de procesos, personal y cumplimiento de estándares de producción.              |
+| Atención sostenida       | Capacidad para mantener la concentración frente a múltiples estímulos del entorno industrial.        |
+
+**Tabla 15**
+*Memoria y concentración requeridas para el puesto de Supervisor de Ensamblaje*
+
+| Elemento                   | Descripción                                                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Retención de instrucciones | Capacidad para recordar instrucciones escritas y orales relacionadas con el proceso productivo.                    |
+| Memoria operativa          | Capacidad para recordar procedimientos, secuencias de trabajo y criterios de supervisión.                          |
+| Concentración sostenida    | Habilidad para mantener la atención durante la revisión de diagramas, órdenes de trabajo y procesos de ensamblaje. |
+
+**Tabla 16**
+*Capacidad analítica y juicio requeridos para el puesto de Supervisor de Ensamblaje*
+
+| Elemento                 | Descripción                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------ |
+| Identificación de fallas | Capacidad para detectar de manera temprana fallas en procesos, maquinaria o productos.           |
+| Juicio independiente     | Habilidad para resolver problemas operativos con criterio propio y responsabilidad.              |
+| Toma de decisiones       | Capacidad para decidir acciones orientadas a la eficiencia y continuidad del área de ensamblaje. |
+
+**Tabla 17**
+*Iniciativa e ingenio requeridos para el puesto de Supervisor de Ensamblaje*
+
+| Elemento                 | Descripción                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------------- |
+| Propuesta de mejoras     | Capacidad para plantear mejoras en los procedimientos de trabajo.                     |
+| Resolución autónoma      | Habilidad para responder ante situaciones no previstas durante el proceso productivo. |
+| Optimización de procesos | Disposición para mejorar la eficiencia y continuidad de los procesos de ensamblaje.   |
 
 
 

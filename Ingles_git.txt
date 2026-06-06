@@ -1,0 +1,43 @@
+Aprender inglés a través de Git es una idea excelente porque la terminal utiliza un vocabulario muy específico, técnico y repetitivo. Si dominas estas palabras, entenderás de inmediato qué está pasando con tu código.
+Aquí tienes la lista de las palabras y conceptos más comunes que verás al hacer push, pull o cuando ocurran errores:
+
+
+## 📥 Flujo de datos básicos (Push y Pull)
+
+* Push: Empujar (Subir tus cambios locales al servidor remoto).
+* Pull: Jalar (Traer los cambios del servidor remoto a tu computadora).
+* Fetch: Buscar / Buscar actualizaciones (Revisar si hay cambios en el servidor, pero sin descargarlos aún).
+* Repository (Repo): Repositorio (La carpeta o proyecto donde Git guarda el historial).
+* Remote: Remoto (El servidor en la nube donde está guardado el código, como GitHub o GitLab).
+* Branch: Rama (Una línea de tiempo independiente para escribir tu código).
+* Up-to-date: Actualizado (Significa que tu computadora tiene exactamente lo mismo que el servidor).
+* Already: Ya (Aparece mucho en "Already up-to-date", que significa "Ya está actualizado").
+
+## 💾 Estados de tus archivos
+
+* Commit: Confirmar / Registrar (Guardar una foto o "capítulo" de tus cambios en el historial).
+* Stage / Staging area: Preparar / Área de preparación (El paso previo antes de hacer un commit).
+* Tracked: Rasteado (Archivos que Git ya está vigilando).
+* Untracked: No rastreado (Archivos nuevos que Git aún no vigila).
+* Modified: Modificado (Archivos existentes que han cambiado).
+* Stash: Guardar provisionalmente / Esconder (Guardar cambios a un lado para limpiar tu mesa de trabajo sin borrarlos).
+
+## ⚠️ Errores y Conflictos
+
+* Conflict: Conflicto (Dos personas modificaron la misma línea del mismo archivo y Git no sabe cuál elegir).
+* Merge: Fusionar / Unir (Combinar dos ramas en una sola).
+* Reject / Rejected: Rechazado (El servidor no aceptó tus cambios; casi siempre pasa porque no has hecho pull antes).
+* Diverged: Divergido / Separado (Tu rama local y la rama del servidor tomaron caminos diferentes).
+* Aborted: Abortado / Cancelado (Git detuvo una operación por seguridad o por un error).
+* Fatal: Grave / Fatal (Un error crítico que impide que el comando se ejecute).
+* Unmerged paths: Rutas no fusionadas (Archivos que todavía tienen conflictos pendientes por resolver).
+
+## 🔍 Mensajes comunes de la terminal explicados
+
+* "Everything up-to-date": Todo está actualizado (No hay nada nuevo que subir).
+* "Fast-forward": Avance rápido (Git unió las ramas de forma directa porque no había cambios que chocaran).
+* "Permission denied": Permiso denegado (No tienes acceso al repositorio o tus claves de seguridad fallaron).
+* "Local changes would be overwritten": Los cambios locales se sobrescribirán (Git te advierte que vas a perder tu trabajo si continúas).
+
+Para avanzar, cuéntame: ¿prefieres que simulemos un error real en inglés para que intentes traducirlo, o te gustaría ver cómo se lee paso a paso el texto que sale cuando haces un git push exitoso?
+

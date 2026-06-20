@@ -1,0 +1,147 @@
+GND → GND
+VCC → 5V
+SDA → A4
+SCL → A5
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+const int led1 = 6;
+const int led2 = 7;
+const int button = 8;
+const int buzzer = 9;
+
+const int repeats = 4;
+const int durationSeconds = 10;
+
+// 🔊 SONIDO INICIO
+void soundStart() {
+  tone(buzzer, 800); delay(120);
+  noTone(buzzer); delay(50);
+
+  tone(buzzer, 1000); delay(120);
+  noTone(buzzer); delay(50);
+
+  tone(buzzer, 1200); delay(150);
+  noTone(buzzer);
+}
+
+// 🔊 SONIDO FINAL
+void soundEnd() {
+  tone(buzzer, 523); delay(150);
+  tone(buzzer, 659); delay(150);
+  tone(buzzer, 784); delay(200);
+  noTone(buzzer);
+}
+
+// 📊 PROGRESO
+void mostrar(String texto, int sec, int total) {
+
+  int percent = (sec * 100) / total;
+  int bars = map(sec, 0, total, 0, 16);
+
+  lcd.clear();
+
+  lcd.setCursor(0, 0);
+  lcd.print(texto);
+
+  lcd.setCursor(10, 0);
+  lcd.print(percent);
+  lcd.print("%");
+
+  lcd.setCursor(0, 1);
+
+  for (int i = 0; i < 16; i++) {
+    if (i < bars) lcd.write(byte(255));
+    else lcd.print("-");
+  }
+}
+
+// ⏱ ETAPA
+void etapa(String texto, int led) {
+
+  digitalWrite(led1, led == led1);
+  digitalWrite(led2, led == led2);
+
+  soundStart();
+
+  for (int s = 1; s <= durationSeconds; s++) {
+    mostrar(texto, s, durationSeconds);
+    delay(1000);
+  }
+}
+
+void setup() {
+
+  lcd.init();
+  lcd.backlight();
+
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+  pinMode(button, INPUT_PULLUP);
+
+  lcd.setCursor(0, 0);
+  lcd.print("PRESIONA");
+  lcd.setCursor(0, 1);
+  lcd.print("PARA EMPEZAR");
+
+  // 🔥 NO AUTO START
+  while (digitalRead(button) == HIGH) {
+    delay(10);
+  }
+
+  while (digitalRead(button) == LOW) {
+    delay(10);
+  }
+}
+
+void loop() {
+
+  for (int i = 0; i < repeats; i++) {
+
+    etapa("Estudio", led1);
+
+    if (i == repeats - 1) {
+      etapa("Desc largo", led2);
+    } else {
+      etapa("Desc corto", led2);
+    }
+  }
+
+  // 🏁 FINAL
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("BIEN HECHO");
+  lcd.setCursor(0, 1);
+  lcd.print("FELICITACIONES");
+
+  soundEnd();
+
+  delay(2500);
+
+  // 🔥 BLOQUEO TOTAL DE REINICIO (FIX FINAL REAL)
+
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("PRESIONA");
+  lcd.setCursor(0, 1);
+  lcd.print("PARA EMPEZAR");
+
+  // esperar que suelte botón primero
+  while (digitalRead(button) == LOW) {
+    delay(10);
+  }
+
+  // esperar nueva presión real
+  while (digitalRead(button) == HIGH) {
+    delay(10);
+  }
+
+  delay(200); // anti rebote
+
+  // 🔥 reinicio real del programa
+  return;
+}

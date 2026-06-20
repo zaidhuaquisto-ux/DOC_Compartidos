@@ -1,0 +1,117 @@
+  https://www.youtube.com/watch?v=xf4Bnm8edAg
+
+
+
+//////////////////////////////
+
+
+#include <LiquidCrystal.h>
+
+// declare variables for keeping track of time
+// and the number of study sessions
+int seconds = 0;
+int minutes = 0;
+int count = 0;
+
+// Dejamos las constantes en 0 minutos para controlar el tiempo solo por segundos
+const int study_minutes = 0;
+const int short_break_minutes = 0;
+const int long_break_minutes = 0;
+const int repeats = 4;
+
+// a variable used to time the breaks later
+int break_duration;
+
+// declare pins used for hardware
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+const int led1 = 6;
+const int led2 = 7;
+const int button = 8;
+
+void setup() // setup code that only runs once
+{
+  lcd.begin(16, 2); // Set up the number of columns and rows on the LCD.
+  // set LED pins as outputs and button pin as input
+  pinMode(led1,OUTPUT);
+  pinMode(led2,OUTPUT);
+  pinMode(button,INPUT); // Se mantiene sensible a tu dedo
+
+  // display initial message to user
+  lcd.print("PRESIONA");
+  lcd.setCursor(0,1);
+  lcd.print("PARA EMPEZAR");
+
+  // wait for button press to start
+  while(digitalRead(button)==LOW){
+    // do nothing
+  }
+}
+
+void loop()
+{
+  count = 0;  // set count to zero
+
+  while(count<repeats){ // alternate timing between study and breaks
+
+    // print message and set LEDs for study time
+    lcd.clear();
+    lcd.print("A estudiar!");
+    digitalWrite(led1,HIGH);
+    digitalWrite(led2,LOW);
+    lcd.setCursor(0, 1);
+
+    // reset minutes and seconds to zero
+    seconds = 0;
+    minutes = 0;
+
+    // MODIFICACIÓN: El cronómetro de estudio ahora se detiene a los 10 segundos
+    while(seconds<10){ 
+      lcd.setCursor(0, 1);
+      if(minutes<10){  
+        lcd.print("0");
+      }
+      lcd.print(minutes);
+      lcd.print(":");
+      if(seconds<10){  
+        lcd.print("0");
+      }
+      lcd.print(seconds);
+      delay(1000);
+      seconds++;
+    }
+    
+    // now repeat the process for a study break
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    digitalWrite(led1,LOW);
+    digitalWrite(led2,HIGH);
+    
+    if(count==(repeats-1)){ // do a long break on the last repetition
+      lcd.print("Descanso largo!");
+    }
+    else{  // otherwise do a short break
+      lcd.print("Descansa poco!");
+    }
+
+    lcd.setCursor(0, 1);
+    seconds = 0;
+    minutes = 0;
+
+    // MODIFICACIÓN: El cronómetro de descanso ahora se detiene a los 10 segundos
+    while(seconds<10){
+      lcd.setCursor(0, 1);
+      if(minutes<10){
+        lcd.print("0");
+      }
+      lcd.print(minutes);
+      lcd.print(":");
+      if(seconds<10){
+        lcd.print("0");
+      }
+      lcd.print(seconds);
+      delay(1000);
+      seconds++;
+    }
+    count++;  // increment the counter for the number of study sessions
+  }
+}

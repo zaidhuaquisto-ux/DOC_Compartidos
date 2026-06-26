@@ -3,7 +3,7 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-// 📌 Configuración de Pines Estabilizada
+// 📌 Configuración de Pines Estabilizada (Ambos en INPUT_PULLUP)
 const int ledVerde = 5;
 const int ledRojo = 13;
 const int btnVerde = 4;   
@@ -42,9 +42,8 @@ void destellarLED(int pinLED) {
   noTone(buzzer);
 }
 
-// 📜 FUNCIÓN CON TU NUEVO TEXTO MODIFICADO
+// 📜 FUNCIÓN CON TU TEXTO MODIFICADO
 int ejecutarFaseDeLectura() {
-  // 📝 Tu nuevo mensaje integrado de forma exacta (con espacios iniciales y finales para el efecto visual)
   String mensaje = "   EL CEREBRO HUMANO PROCESA MILES DE DATOS VISUALES POR SEGUNDO PERO EL ENTORNO PUEDE ATRAPAR TU ATENCION, DESVIANDO TU ENFOQUE Y LIMITANDO TU PERCEPCION CONSCIENTE...   ";
   
   int conteoVerde = 0;
@@ -57,21 +56,17 @@ int ejecutarFaseDeLectura() {
   for (int i = 0; i < mensaje.length() - 16; i++) {
     String fragmento = mensaje.substring(i, i + 16);
     
-    // 📺 Fila superior: Texto en movimiento
     lcd.setCursor(0, 0);
     lcd.print(fragmento);
     
-    // 📺 Fila inferior: Limpia
     lcd.setCursor(0, 1);
     lcd.print("                "); 
     
-    // 🚦 NUEVA DISTRIBUCIÓN MATEMÁTICA DE DESTELLOS
-    // Verde parpadea 6 veces
+    // 🚦 Distribución de destellos (Verde: 6 veces | Rojo: 4 veces)
     if (i == 22 || i == 44 || i == 66 || i == 88 || i == 110 || i == 132) { 
       destellarLED(ledVerde);
       conteoVerde++;
     }
-    // Rojo parpadea 4 veces
     if (i == 31 || i == 62 || i == 93 || i == 124) { 
       destellarLED(ledRojo);
       conteoRojo++;
@@ -102,7 +97,7 @@ void setup() {
   pinMode(ledRojo, OUTPUT);
   pinMode(buzzer, OUTPUT);
   
-  pinMode(btnVerde, INPUT);        
+  pinMode(btnVerde, INPUT_PULLUP);        
   pinMode(btnRojo, INPUT_PULLUP);  
 
   lcd.setCursor(0, 0);
@@ -110,7 +105,8 @@ void setup() {
   lcd.setCursor(0, 1);
   lcd.print("PULSA CUALQUIERA");
 
-  while (digitalRead(btnVerde) == LOW && digitalRead(btnRojo) == HIGH) { delay(10); }
+  // 🔄 CORREGIDO: Espera que cualquiera de los dos baje a LOW para iniciar
+  while (digitalRead(btnVerde) == HIGH && digitalRead(btnRojo) == HIGH) { delay(10); }
   delay(200); 
 }
 
@@ -128,7 +124,6 @@ void loop() {
   lcd.print("TERMINO EL TEXTO");
   delay(1500);
   
-  // Pregunta en dos filas sin los nombres de los botones abajo
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("QUE LUZ BRILLO ");
@@ -137,9 +132,8 @@ void loop() {
   
   int botonPresionado = 0;
 
-  // Bucle infinito sin tiempo límite hasta que se pulse un botón
   while (true) {
-    if (digitalRead(btnVerde) == HIGH) { 
+    if (digitalRead(btnVerde) == LOW) { 
       botonPresionado = btnVerde;
       break;
     }
@@ -150,10 +144,8 @@ void loop() {
     delay(10);
   }
 
-  // RESPUESTA FINAL PERSONALIZADA EN SCROLL
   lcd.clear();
   if (botonPresionado == botonGanador) {
-    // 1. Mensaje grande por 2 segundos
     lcd.setCursor(0, 0);
     lcd.print("   CORRECTO!    ");
     digitalWrite(ledVerde, HIGH);
@@ -161,12 +153,10 @@ void loop() {
     delay(2000); 
     digitalWrite(ledVerde, LOW);
     
-    // 2. Scroll con la frase exacta solicitada
     String msgCorrecto = "   Eres independiente de entorno.      ";
     mostrarExplicacionScroll(msgCorrecto);
   } 
   else {
-    // 1. Mensaje grande por 2 segundos
     lcd.setCursor(0, 0);
     lcd.print("  INCORRECTO!   ");
     digitalWrite(ledRojo, HIGH);
@@ -174,20 +164,19 @@ void loop() {
     delay(2000); 
     digitalWrite(ledRojo, LOW);
     
-    // 2. Scroll con la frase exacta solicitada
     String msgIncorrecto = "   Eres dependiente de entorno.      ";
     mostrarExplicacionScroll(msgIncorrecto);
   }
 
-  // Pantalla de Espera para Reinicio
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("TEST COMPLETADO");
   lcd.setCursor(0, 1);
   lcd.print("PULSA P/ REINICIO");
 
-  while (digitalRead(btnVerde) == HIGH || digitalRead(btnRojo) == LOW) { delay(10); }
-  while (digitalRead(btnVerde) == LOW && digitalRead(btnRojo) == HIGH) { delay(10); }
+  // 🔄 CORREGIDO: Bloqueo de reinicio adaptado a ambos botones en LOW
+  while (digitalRead(btnVerde) == LOW || digitalRead(btnRojo) == LOW) { delay(10); }
+  while (digitalRead(btnVerde) == HIGH && digitalRead(btnRojo) == HIGH) { delay(10); }
   delay(200); 
   
   return; 

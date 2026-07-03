@@ -9,12 +9,15 @@ const int led2 = 7;
 const int soundSensorAO = A0; // AO conectado al pin A0
 const int buzzer = 9;
 
-const int repeats = 4;
-const int durationSeconds = 10;
+// CONFIGURACIÓN POMODORO DE 1 HORA TOTAL:
+// 2 repeticiones de (25 min Estudio + 5 min Descanso) = 60 minutos exactos.
+const int repeats = 2; 
+const int tiempoEstudioMinutos = 25;
+const int tiempoDescansoMinutos = 5;
 
-// Umbrales separados. para calibrar el inicio y el reinicio. Se pueden ajustar según el entorno y la sensibilidad del sensor de sonido.
+// Umbrales separados para calibrar el inicio y el reinicio.
 int umbralInicio = 522;
-int umbralReinicio = 518; //Estaba con 520
+int umbralReinicio = 518;
 
 // 🔊 SONIDO INICIO
 void soundStart() {
@@ -50,17 +53,6 @@ bool detectarAplauso(int umbral) {
   Serial.print("Max: "); Serial.print(maxValor);
   Serial.print(" / Umbral: "); Serial.println(umbral);
 
-  // ESTA PARTE ES PARA DEBUG, SE PUEDE COMENTAR PARA NO MOSTRAR EN LCD ////
-
-
-  // lcd.clear();
-  // lcd.setCursor(0, 0);
-  // lcd.print("Max:");
-  // lcd.print(maxValor);
-  // lcd.setCursor(0, 1);
-  // lcd.print("Umbral:");
-  // lcd.print(umbral);
-
   if (maxValor > umbral) {
     return true;
   }
@@ -81,7 +73,7 @@ void reiniciarArduino() {
 
 // 📊 PROGRESO
 void mostrar(String texto, int sec, int total) {
-  int percent = (sec * 100) / total;
+  int percent = ((long)sec * 100) / total;
   int bars = map(sec, 0, total, 0, 16);
 
   lcd.clear();
@@ -99,22 +91,25 @@ void mostrar(String texto, int sec, int total) {
   }
 }
 
-// ⏱ ETAPA
-void etapa(String texto, int led) {
+// ⏱ ETAPA CONFIGURABLE POR MINUTOS
+void etapa(String texto, int led, int minutos) {
   digitalWrite(led1, led == led1);
   digitalWrite(led2, led == led2);
 
   soundStart(); // 🔊 suena al empezar cada etapa
 
-  for (int s = 1; s <= durationSeconds; s++) {
-    mostrar(texto, s, durationSeconds);
+  int totalSeconds = minutos * 60;
+
+  for (int s = 1; s <= totalSeconds; s++) {
+    mostrar(texto, s, totalSeconds);
 
     // 👀 Si detecta aplauso durante la etapa, reinicia el Arduino
     if (detectarAplauso(umbralReinicio)) {
       reiniciarArduino();
     }
 
-    delay(1000);
+    // delay de 800ms + los 200ms de detectarAplauso = 1000ms (1 segundo exacto)
+    delay(800); 
   }
 }
 
@@ -141,13 +136,8 @@ void setup() {
 
 void loop() {
   for (int i = 0; i < repeats; i++) {
-    etapa("Estudio", led1);
-
-    if (i == repeats - 1) {
-      etapa("Desc largo", led2);
-    } else {
-      etapa("Desc corto", led2);
-    }
+    etapa("Estudio", led1, tiempoEstudioMinutos);
+    etapa("Desc corto", led2, tiempoDescansoMinutos);
   }
 
   // 🏁 FINAL

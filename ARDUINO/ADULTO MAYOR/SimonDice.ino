@@ -1,4 +1,17 @@
 #include <EEPROM.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// Fuentes elegantes
+#include <Fonts/FreeSansBold12pt7b.h>
+#include <Fonts/FreeSansBold18pt7b.h>
+#include <Fonts/FreeMonoBold24pt7b.h>
+
+// Configuración OLED
+#define ANCHO 128
+#define ALTO 64
+Adafruit_SSD1306 display(ANCHO, ALTO, &Wire, -1);
 
 // Buzzer
 #define altavoz 10
@@ -90,6 +103,15 @@ void animacion_inicio() {
     apaga_leds();
     delay(200);
   }
+  // Mensaje en OLED con fuente elegante
+  display.clearDisplay();
+  display.setFont(&FreeSansBold18pt7b);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(10,40);
+  display.println("SIMON");
+  display.drawRect(0,0,128,64,SSD1306_WHITE); // marco
+  display.display();
+  delay(2000);
 }
 
 void feedback_acierto() {
@@ -99,6 +121,16 @@ void feedback_acierto() {
   sonido(4);
   delay(150);
   apaga_leds();
+
+  // OLED: mensaje de acierto con fuente grande
+  display.clearDisplay();
+  display.setFont(&FreeMonoBold24pt7b);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0,50);
+  display.println("BIEN");
+  display.display();
+
+  delay(3000); // pausa de 3 segundos antes del siguiente nivel
 }
 
 void has_fallado(int tono) {
@@ -111,11 +143,28 @@ void has_fallado(int tono) {
   }
   apaga_leds();
   delay(1000);
+
+  // OLED: mensaje de fallo con fuente grande
+  display.clearDisplay();
+  display.setFont(&FreeSansBold18pt7b);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0,30);
+  display.println("ERROR");
+  display.display();
 }
 
 void muestra_colores() {
   apaga_leds();
   retardo(nivel);
+
+  // OLED: mostrar nivel con fuente mediana
+  display.clearDisplay();
+  display.setFont(&FreeSansBold12pt7b);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0,30);
+  display.print("Nivel ");
+  display.println(nivel);
+  display.display();
 
   for (dir_lectura = 0; dir_lectura < dir_escritura; dir_lectura++) {
     color_leido = EEPROM.read(dir_lectura);
@@ -165,8 +214,16 @@ void setup() {
 
   apaga_leds();
 
+  // Inicializar OLED
+  if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { 
+    for(;;); // Si falla, se queda aquí
+  }
+  display.setTextColor(SSD1306_WHITE);
+
   nivel = 1; // arranca directamente en nivel 1
   animacion_inicio(); // animación de bienvenida
+
+  delay(5000); // espera 5 segundos antes de iniciar el juego
 }
 
 void loop() {
@@ -191,6 +248,7 @@ void loop() {
   delay(1000);
 }
 
+
 /*
 🔌 CONEXIONES
 - LED rojo → Pin 2
@@ -203,3 +261,9 @@ void loop() {
 - Botón azul → Pin 9
 - Buzzer → Pin 10
 */
+// 🔌 CONEXIONES
+// 1. Pantalla OLED (I2C con pines GND, VDD, SCK, SDA):
+//    - GND → GND del Arduino
+//    - VDD → 5V del Arduino (o 3.3V si tu OLED solo soporta 3.3V)
+//    - SCK → pin A5 del Arduino (SCL en I2C)
+//    - SDA → pin A4 del Arduino (SDA en I2C)
